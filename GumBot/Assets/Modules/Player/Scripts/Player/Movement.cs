@@ -31,6 +31,8 @@ public class Movement : MonoBehaviour {
 	public GameObject canonPosition;
 	public CharacterGravity characterGrav;
 
+
+
 	
 	// Use this for initialization
 	void Start () {
@@ -208,6 +210,7 @@ public class Movement : MonoBehaviour {
 
 		characterGrav.attractor = gravityCanon.targetPlanet.GetComponent<Attractor>();
 	}
+
 
 	
 }
