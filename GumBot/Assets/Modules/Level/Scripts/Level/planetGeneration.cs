@@ -57,6 +57,7 @@ public class planetGeneration : MonoBehaviour {
 				{
 					int sectionToAdd = Random.Range (0, smlSections.Count);
 					sections.Add(smlSections[sectionToAdd]);
+					smlSections.RemoveAt(sectionToAdd);
 				}
 			} 
 			else if (planetSize == 2)
@@ -67,6 +68,7 @@ public class planetGeneration : MonoBehaviour {
 				{
 					int sectionToAdd = Random.Range (0, medSections.Count);
 					sections.Add(medSections[sectionToAdd]);
+					medSections.RemoveAt(sectionToAdd);
 				}
 			} else {
 				sectionsPerWorld = lrgPlanetSections;
@@ -75,6 +77,7 @@ public class planetGeneration : MonoBehaviour {
 				{
 					int sectionToAdd = Random.Range (0, lrgSections.Count);
 					sections.Add(lrgSections[sectionToAdd]);
+					lrgSections.RemoveAt(sectionToAdd);
 				}
 			}
 			
