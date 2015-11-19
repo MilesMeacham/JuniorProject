@@ -109,7 +109,7 @@ public class levelGeneration : MonoBehaviour {
 			for(int n = 0; n < sectionsPerWorld; n++){
 				
 				int rand = Random.Range (0, sections.Count);
-				GameObject value = sections[rand];
+				//GameObject value = sections[rand];
 
 				// Place shard
 				GameObject obj = Instantiate (sections[rand], new Vector3(planet.transform.position.x, planet.transform.position.y, (planet.transform.position.z - 1)), Quaternion.Euler(planet.transform.rotation.x, planet.transform.rotation.y, planet.transform.rotation.z + rotationValue)) as GameObject;

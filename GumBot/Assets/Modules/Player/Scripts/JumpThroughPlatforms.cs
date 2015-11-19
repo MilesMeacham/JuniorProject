@@ -1,16 +1,22 @@
-﻿using UnityEngine;
+﻿// Author: Miles Meacham
+// Description: Enables Character to Jump through the bottom of a platform
+
+using UnityEngine;
 using System.Collections;
+
+// Jump Through Platforms
+// Need to set the desired platform to layer 12
 
 public class JumpThroughPlatforms : MonoBehaviour {
 
-	public int playerLayer = 8;
-	public int platformLayer = 9;
-	public float playerVelocity;
-
-	public float newPosition;
-	public float oldPosition;
-	public Transform rb;
-	public Attractor core;
+	// Declaring Variables
+	private int playerLayer = 8;
+	private int platformLayer = 12;
+	private float playerVelocity;
+	private float newPosition;
+	private float oldPosition;
+	private Transform rb;
+	private Attractor core;
 	
 
 	// Use this for initialization
@@ -22,14 +28,18 @@ public class JumpThroughPlatforms : MonoBehaviour {
 	
 	// Update is called once per frame
 	void FixedUpdate () {
-		//newPosition = rb.position.y;
 
+		// Get the distance from the center of the planet
 		newPosition = Vector3.Distance(rb.position, core.GetComponent<Transform>().position);
 
+		// Find the difference of the oldPosition from newPosition
 		playerVelocity = newPosition - oldPosition;
 
+		// If the distance of the formula above is greater than 0.01, then the player is jumping
+		// making it so he can go through the desired platforms
 		Physics.IgnoreLayerCollision(playerLayer, platformLayer, playerVelocity > 0.01f);
 
+		// Set oldPosition equal to newPosition
 		oldPosition = newPosition;
 	}
 	
