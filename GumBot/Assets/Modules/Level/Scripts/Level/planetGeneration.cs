@@ -28,9 +28,10 @@ public class planetGeneration : MonoBehaviour {
 
 	// These Lists are used to procedurally choose the shards for the rings
 	// Add the shards in the Inspector
-	public List<GameObject> smlSections = new List<GameObject>();
-	public List<GameObject> medSections = new List<GameObject>();
-	public List<GameObject> lrgSections = new List<GameObject>();
+
+	private List<GameObject> smlSections = new List<GameObject>();
+	private List<GameObject> medSections = new List<GameObject>();
+	private List<GameObject> lrgSections = new List<GameObject>();
 
 	private int sectionToAdd;
 
@@ -42,6 +43,24 @@ public class planetGeneration : MonoBehaviour {
 	// Post-conditions:
 	// -----------------------------------------------------------------
 	void Awake () {
+
+		Object[] sectionsArray = Resources.LoadAll("Shards/SmlShards",typeof(GameObject));
+
+		foreach(var obj in sectionsArray)
+			smlSections.Add (obj as GameObject);
+
+		Object[] sectionsArray2 = Resources.LoadAll("Shards/MedShards",typeof(GameObject));
+
+		foreach(var obj in sectionsArray2)
+			medSections.Add (obj as GameObject);
+
+
+		Object[] sectionsArray3 = Resources.LoadAll("Shards/LrgShards",typeof(GameObject));
+		
+		foreach(var obj in sectionsArray3)
+			lrgSections.Add (obj as GameObject);
+
+
 
 		int planetSize = 1;
 

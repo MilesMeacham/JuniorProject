@@ -1,16 +1,23 @@
 fileFormatVersion: 2
-guid: 9d807eb478a32874a9e1f1b2df6062b5
-timeCreated: 1447907185
+guid: 18637c743c762e941b34c36ebfb56b12
+timeCreated: 1448405474
 licenseType: Free
 ModelImporter:
   serializedVersion: 18
   fileIDToRecycleName:
-    100000: //RootNode
-    400000: //RootNode
-    2300000: //RootNode
-    3300000: //RootNode
-    4300000: pCylinder4
-    4300002: rawMediumPlanetQuadrantMETERS:pCylinder4
+    100000: pCylinder2
+    100002: pCylinder5
+    100004: //RootNode
+    100006: transform1
+    400000: pCylinder2
+    400002: pCylinder5
+    400004: //RootNode
+    400006: transform1
+    2300000: pCylinder5
+    2300002: //RootNode
+    3300000: pCylinder5
+    3300002: //RootNode
+    4300000: pCylinder5
     9500000: //RootNode
   materials:
     importMaterials: 1

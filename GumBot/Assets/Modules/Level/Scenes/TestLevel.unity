@@ -156,21 +156,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   ringAmount: 3
   sections: []
-  smlSections:
-  - {fileID: 138452, guid: f0497f8de409c024c9ecee8bf933c954, type: 2}
-  - {fileID: 119992, guid: 61bbe269631d6fb4591734029567d95c, type: 2}
-  - {fileID: 167570, guid: 4a5f22c5dd338fb49b617df8262c3c34, type: 2}
-  - {fileID: 110882, guid: 1a105412752e45b45bb6210631b05895, type: 2}
-  medSections:
-  - {fileID: 125704, guid: f8d20ae17dd11024bb78fb98002b6850, type: 2}
-  - {fileID: 107650, guid: 8440e28705aab5147af3566be356198d, type: 2}
-  - {fileID: 182788, guid: 3408d7e8c41673a4782eec60999b3b5f, type: 2}
-  - {fileID: 113422, guid: c59f225a0fcec3d4e8619ad1a731d032, type: 2}
-  lrgSections:
-  - {fileID: 165214, guid: f5187e81aad444e4b887ea51c0dbc8f4, type: 2}
-  - {fileID: 171838, guid: 9c85c177f2a672343bbf7c3a7bb1a864, type: 2}
-  - {fileID: 174840, guid: 28c351b75e18184439688db00108ea4d, type: 2}
-  - {fileID: 169372, guid: 43ac454f4050a734bba4f97334e15f49, type: 2}
 --- !u!4 &512393314
 Transform:
   m_ObjectHideFlags: 0

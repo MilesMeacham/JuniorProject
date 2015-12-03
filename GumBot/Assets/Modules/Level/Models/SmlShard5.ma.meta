@@ -1,6 +1,6 @@
 fileFormatVersion: 2
-guid: 9d807eb478a32874a9e1f1b2df6062b5
-timeCreated: 1447907185
+guid: 60359000e958ace4ba4bd0ccb184b815
+timeCreated: 1448405478
 licenseType: Free
 ModelImporter:
   serializedVersion: 18
@@ -9,8 +9,7 @@ ModelImporter:
     400000: //RootNode
     2300000: //RootNode
     3300000: //RootNode
-    4300000: pCylinder4
-    4300002: rawMediumPlanetQuadrantMETERS:pCylinder4
+    4300000: pCylinder5
     9500000: //RootNode
   materials:
     importMaterials: 1
