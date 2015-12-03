@@ -29,13 +29,13 @@ public class KeyboardControls : MonoBehaviour {
         }
         if (Input.GetKeyUp(KeyCode.D))
         {
-            theCharacterMotor.RightActivation();
+            theCharacterMotor.movingRight=false;
         }
 
 
         if (Input.GetKeyUp(KeyCode.A))
         {
-            theCharacterMotor.LeftActivation();
+            theCharacterMotor.movingLeft=false;
         }
     }
 
