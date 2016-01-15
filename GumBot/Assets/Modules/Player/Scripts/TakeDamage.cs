@@ -49,7 +49,11 @@ public class TakeDamage : MonoBehaviour {
 		// if character is not immune to hazard damage, he will detect these
 		if (!immuneToHazardDamage) 
 		{
-			
+			if (collider.gameObject.tag == "Spikes")
+			{
+				theCharacterHealth.removeHealth(1f);
+				theCharacterHealth.Invincibility();
+			}
 		}
 
 	}
@@ -78,7 +82,10 @@ public class TakeDamage : MonoBehaviour {
 		// if character is not immune to hazard damage, he will detect these
 		if (!immuneToHazardDamage) 
 		{
-
+			if (collider.gameObject.tag == "Spikes") {
+				theCharacterHealth.removeHealth (collider.GetComponent<SpikeHazard> ().damage);
+				theCharacterHealth.Invincibility ();
+			}
 		}
 
 		

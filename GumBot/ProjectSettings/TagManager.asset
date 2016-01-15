@@ -12,6 +12,7 @@ TagManager:
   - Enemy
   - PlayerBullet
   - EnemyBullet
+  - Spikes
   layers:
   - Default
   - TransparentFX
