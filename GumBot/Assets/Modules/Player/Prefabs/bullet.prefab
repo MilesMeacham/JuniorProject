@@ -15,7 +15,7 @@ GameObject:
   - 54: {fileID: 5420450}
   m_Layer: 0
   m_Name: bullet
-  m_TagString: PlayerBullet
+  m_TagString: EnemyBullet
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -89,10 +89,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7180949053df9f64bb6c9132abc72c58, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  shotVelocity: 25
-  rb: {fileID: 5420450}
+  shotVelocity: 20
+  rb: {fileID: 0}
   theCharacterMotor: {fileID: 0}
-  TheDude: {fileID: 162510, guid: 004a0378d71a3d9468868220f24172ef, type: 2}
   lifeDuration: .5
   Xpos: 0
   Ypos: 0
@@ -140,7 +139,11 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 0}
       propertyPath: m_Enabled
-      value: 0
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: theCharacterMotor
+      value: 
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 0}

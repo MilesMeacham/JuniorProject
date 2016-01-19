@@ -49,16 +49,27 @@
      <Compile Include="Assets\GroundCheck.cs" />
      <Compile Include="Assets\Modules\Camera\CarbonCounter.cs" />
      <Compile Include="Assets\Modules\Camera\cameraController.cs" />
+     <Compile Include="Assets\Modules\Enemies\Scripts\AI\Charge.cs" />
+     <Compile Include="Assets\Modules\Enemies\Scripts\AI\EnemyShootAI.cs" />
      <Compile Include="Assets\Modules\Enemies\Scripts\AI\PaceBetweenWalls.cs" />
+     <Compile Include="Assets\Modules\Enemies\Scripts\AI\TrackPlayer.cs" />
+     <Compile Include="Assets\Modules\Enemies\Scripts\AI\enemyBulletMovement.cs" />
+     <Compile Include="Assets\Modules\Enemies\Scripts\AI\enemyShotMovement.cs" />
+     <Compile Include="Assets\Modules\Enemies\Scripts\AI\groundTurret.cs" />
+     <Compile Include="Assets\Modules\Enemies\Scripts\AI\turret.cs" />
      <Compile Include="Assets\Modules\GUI\GUI Scripts\TouchInputs.cs" />
      <Compile Include="Assets\Modules\GUI\GUI Scripts\buttonLocation.cs" />
      <Compile Include="Assets\Modules\GUI\GUI Scripts\buttonTouch.cs" />
+     <Compile Include="Assets\Modules\GUI\GUI Scripts\interfaceScript.cs" />
      <Compile Include="Assets\Modules\Level\Scripts\Gravity\Attractor.cs" />
      <Compile Include="Assets\Modules\Level\Scripts\Gravity\CharacterGravity.cs" />
      <Compile Include="Assets\Modules\Level\Scripts\Gravity\TransferGravity.cs" />
+     <Compile Include="Assets\Modules\Level\Scripts\Level\MoverScript.cs" />
      <Compile Include="Assets\Modules\Level\Scripts\Level\RotateLeft.cs" />
      <Compile Include="Assets\Modules\Level\Scripts\Level\RotateRight.cs" />
+     <Compile Include="Assets\Modules\Level\Scripts\Level\RotatorScript.cs" />
      <Compile Include="Assets\Modules\Level\Scripts\Level\planetGeneration.cs" />
+     <Compile Include="Assets\Modules\Level\Scripts\SpawnPointEnemy.cs" />
      <Compile Include="Assets\Modules\Player\Scripts\CharacterAutoCrouch\CharacterAutoCrouch.cs" />
      <Compile Include="Assets\Modules\Player\Scripts\CharacterAutoCrouch\CharacterAutoCrouchBottom.cs" />
      <Compile Include="Assets\Modules\Player\Scripts\CharacterAutoCrouch\CharacterAutoCrouchTop.cs" />
@@ -76,17 +87,11 @@
      <Compile Include="Assets\Modules\Player\Scripts\bulletMovement.cs" />
      <Compile Include="Assets\Modules\Player\Scripts\touchControls.cs" />
      <Compile Include="Assets\instantiate.cs" />
- <Reference Include="UnityEngine.Advertisements">
- <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/Advertisements/UnityEngine.Advertisements.dll</HintPath>
- </Reference>
  <Reference Include="UnityEngine.UI">
  <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
  </Reference>
  <Reference Include="UnityEngine.Networking">
  <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/Networking/UnityEngine.Networking.dll</HintPath>
- </Reference>
- <Reference Include="UnityEngine.Analytics">
- <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/UnityAnalytics/UnityEngine.Analytics.dll</HintPath>
  </Reference>
  <Reference Include="UnityEditor.iOS.Extensions.Xcode">
  <HintPath>/Applications/Unity/Unity.app/Contents/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.Xcode.dll</HintPath>

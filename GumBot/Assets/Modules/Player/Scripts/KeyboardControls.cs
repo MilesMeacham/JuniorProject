@@ -5,12 +5,14 @@ public class KeyboardControls : MonoBehaviour {
 	
 	private CharacterMotor2 theCharacterMotor;
 	private CharacterJump2 theCharacterJump;
+	private CharacterShot theCharacterShot;
 
 	// Use this for initialization
 	void Start () 
 	{
 		theCharacterMotor = gameObject.GetComponent<CharacterMotor2> ();
 		theCharacterJump = gameObject.GetComponent<CharacterJump2> ();
+		theCharacterShot = gameObject.GetComponent<CharacterShot> ();
 	}
 
 	void Update ()
@@ -37,6 +39,11 @@ public class KeyboardControls : MonoBehaviour {
         {
             theCharacterMotor.movingLeft=false;
         }
+
+		if(Input.GetKeyDown(KeyCode.F))
+		{
+			theCharacterShot.shot ();
+		}
     }
 
 
