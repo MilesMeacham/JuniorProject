@@ -57,11 +57,14 @@
      <Compile Include="Assets\Modules\GUI\GUI Scripts\TouchInputs.cs" />
      <Compile Include="Assets\Modules\GUI\GUI Scripts\buttonLocation.cs" />
      <Compile Include="Assets\Modules\GUI\GUI Scripts\buttonTouch.cs" />
+     <Compile Include="Assets\Modules\GUI\GUI Scripts\interfaceScript.cs" />
      <Compile Include="Assets\Modules\Level\Scripts\Gravity\Attractor.cs" />
      <Compile Include="Assets\Modules\Level\Scripts\Gravity\CharacterGravity.cs" />
      <Compile Include="Assets\Modules\Level\Scripts\Gravity\TransferGravity.cs" />
+     <Compile Include="Assets\Modules\Level\Scripts\Level\MoverScript.cs" />
      <Compile Include="Assets\Modules\Level\Scripts\Level\RotateLeft.cs" />
      <Compile Include="Assets\Modules\Level\Scripts\Level\RotateRight.cs" />
+     <Compile Include="Assets\Modules\Level\Scripts\Level\RotatorScript.cs" />
      <Compile Include="Assets\Modules\Level\Scripts\Level\planetGeneration.cs" />
      <Compile Include="Assets\Modules\Player\Scripts\CharacterAutoCrouch\CharacterAutoCrouch.cs" />
      <Compile Include="Assets\Modules\Player\Scripts\CharacterAutoCrouch\CharacterAutoCrouchBottom.cs" />

@@ -1,157 +1,130 @@
 fileFormatVersion: 2
-<<<<<<< HEAD
 guid: d46ce698d1bf9d24a8d30307f34560db
-timeCreated: 1452883246
-=======
-guid: a5c30d1435603154a9ec9a3e72a6e0e8
-timeCreated: 1452891995
->>>>>>> 9c44e35c43c1a1e91bb8746153e7ce0afabe53f4
-licenseType: Free
 ModelImporter:
   serializedVersion: 18
   fileIDToRecycleName:
-    100000: //RootNode
-    100002: pCylinder2
-    100004: pCylinder3
-    100006: transform1
-<<<<<<< HEAD
-    100008: cloud1
-    100010: cloud10
-    100012: cloud11
-    100014: cloud12
-    100016: cloud13
-    100018: cloud14
-    100020: cloud15
-    100022: cloud16
-    100024: cloud17
-    100026: cloud18
-    100028: cloud19
-    100030: cloud2
-    100032: cloud20
-    100034: cloud3
-    100036: cloud4
-    100038: cloud5
-    100040: cloud6
-    100042: cloud7
-    100044: cloud8
-    100046: cloud9
-    100048: island2
-    100050: island3
-    100052: IslandMain
-    100054: stairs
-=======
->>>>>>> 9c44e35c43c1a1e91bb8746153e7ce0afabe53f4
-    400000: //RootNode
-    400002: pCylinder2
-    400004: pCylinder3
-    400006: transform1
-<<<<<<< HEAD
-    400008: cloud1
-    400010: cloud10
-    400012: cloud11
-    400014: cloud12
-    400016: cloud13
-    400018: cloud14
-    400020: cloud15
-    400022: cloud16
-    400024: cloud17
-    400026: cloud18
-    400028: cloud19
-    400030: cloud2
-    400032: cloud20
-    400034: cloud3
-    400036: cloud4
-    400038: cloud5
-    400040: cloud6
-    400042: cloud7
-    400044: cloud8
-    400046: cloud9
-    400048: island2
-    400050: island3
-    400052: IslandMain
-    400054: stairs
-    2300000: pCylinder3
-    2300002: //RootNode
-    2300004: cloud1
-    2300006: cloud10
-    2300008: cloud11
-    2300010: cloud12
-    2300012: cloud13
-    2300014: cloud14
-    2300016: cloud15
-    2300018: cloud16
-    2300020: cloud17
-    2300022: cloud18
-    2300024: cloud19
-    2300026: cloud2
-    2300028: cloud20
-    2300030: cloud3
-    2300032: cloud4
-    2300034: cloud5
-    2300036: cloud6
-    2300038: cloud7
-    2300040: cloud8
-    2300042: cloud9
-    2300044: island2
-    2300046: island3
-    2300048: IslandMain
-    2300050: stairs
-    3300000: pCylinder3
-    3300002: //RootNode
-    3300004: cloud1
-    3300006: cloud10
-    3300008: cloud11
-    3300010: cloud12
-    3300012: cloud13
-    3300014: cloud14
-    3300016: cloud15
-    3300018: cloud16
-    3300020: cloud17
-    3300022: cloud18
-    3300024: cloud19
-    3300026: cloud2
-    3300028: cloud20
-    3300030: cloud3
-    3300032: cloud4
-    3300034: cloud5
-    3300036: cloud6
-    3300038: cloud7
-    3300040: cloud8
-    3300042: cloud9
-    3300044: island2
-    3300046: island3
-    3300048: IslandMain
-    3300050: stairs
-    4300000: pCylinder3
-    4300002: cloud10
-    4300004: island3
-    4300006: cloud14
-    4300008: cloud13
-    4300010: cloud8
-    4300012: cloud12
-    4300014: cloud7
-    4300016: cloud9
-    4300018: cloud11
-    4300020: IslandMain
-    4300022: cloud6
-    4300024: cloud5
-    4300026: island2
-    4300028: cloud4
-    4300030: stairs
-    4300032: cloud3
-    4300034: cloud1
-    4300036: cloud2
-    4300038: cloud15
-    4300040: cloud16
-    4300042: cloud17
-    4300044: cloud18
-    4300046: cloud19
-    4300048: cloud20
-=======
-    2300000: pCylinder3
-    3300000: pCylinder3
-    4300000: pCylinder3
->>>>>>> 9c44e35c43c1a1e91bb8746153e7ce0afabe53f4
+    100000: cloud1
+    100002: cloud10
+    100004: cloud11
+    100006: cloud12
+    100008: cloud13
+    100010: cloud14
+    100012: cloud15
+    100014: cloud16
+    100016: cloud17
+    100018: cloud18
+    100020: cloud19
+    100022: cloud2
+    100024: cloud20
+    100026: cloud3
+    100028: cloud4
+    100030: cloud5
+    100032: cloud6
+    100034: cloud7
+    100036: cloud8
+    100038: cloud9
+    100040: island2
+    100042: island3
+    100044: IslandMain
+    100046: //RootNode
+    100048: stairs
+    400000: cloud1
+    400002: cloud10
+    400004: cloud11
+    400006: cloud12
+    400008: cloud13
+    400010: cloud14
+    400012: cloud15
+    400014: cloud16
+    400016: cloud17
+    400018: cloud18
+    400020: cloud19
+    400022: cloud2
+    400024: cloud20
+    400026: cloud3
+    400028: cloud4
+    400030: cloud5
+    400032: cloud6
+    400034: cloud7
+    400036: cloud8
+    400038: cloud9
+    400040: island2
+    400042: island3
+    400044: IslandMain
+    400046: //RootNode
+    400048: stairs
+    2300000: cloud1
+    2300002: cloud10
+    2300004: cloud11
+    2300006: cloud12
+    2300008: cloud13
+    2300010: cloud14
+    2300012: cloud15
+    2300014: cloud16
+    2300016: cloud17
+    2300018: cloud18
+    2300020: cloud19
+    2300022: cloud2
+    2300024: cloud20
+    2300026: cloud3
+    2300028: cloud4
+    2300030: cloud5
+    2300032: cloud6
+    2300034: cloud7
+    2300036: cloud8
+    2300038: cloud9
+    2300040: island2
+    2300042: island3
+    2300044: IslandMain
+    2300046: stairs
+    3300000: cloud1
+    3300002: cloud10
+    3300004: cloud11
+    3300006: cloud12
+    3300008: cloud13
+    3300010: cloud14
+    3300012: cloud15
+    3300014: cloud16
+    3300016: cloud17
+    3300018: cloud18
+    3300020: cloud19
+    3300022: cloud2
+    3300024: cloud20
+    3300026: cloud3
+    3300028: cloud4
+    3300030: cloud5
+    3300032: cloud6
+    3300034: cloud7
+    3300036: cloud8
+    3300038: cloud9
+    3300040: island2
+    3300042: island3
+    3300044: IslandMain
+    3300046: stairs
+    4300000: cloud10
+    4300002: island3
+    4300004: cloud14
+    4300006: cloud13
+    4300008: cloud8
+    4300010: cloud12
+    4300012: cloud7
+    4300014: cloud9
+    4300016: cloud11
+    4300018: IslandMain
+    4300020: cloud6
+    4300022: cloud5
+    4300024: island2
+    4300026: cloud4
+    4300028: stairs
+    4300030: cloud3
+    4300032: cloud1
+    4300034: cloud2
+    4300036: cloud15
+    4300038: cloud16
+    4300040: cloud17
+    4300042: cloud18
+    4300044: cloud19
+    4300046: cloud20
     9500000: //RootNode
   materials:
     importMaterials: 1
@@ -176,7 +149,7 @@ ModelImporter:
     isReadable: 1
   meshes:
     lODScreenPercentages: []
-    globalScale: 1
+    globalScale: 0
     meshCompression: 0
     addColliders: 0
     importBlendShapes: 1
