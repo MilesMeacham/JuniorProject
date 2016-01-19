@@ -1,27 +1,31 @@
 ﻿using UnityEngine;
 using System.Collections;
 
-public class enemyShootingHorizontal : MonoBehaviour {
+public class turret : MonoBehaviour {
 
     public float targetDistance;
     public float attackDistance;
-    public float enemyMovementSpeed;
     public float enemyLookDistance;
     public float enemyStopDistance;
-    public float damping;
     public Transform enemyShotStart;
     public Transform enemyShotStart2;
     public Transform enemyShotStart3;
+    public Transform enemyShotStart4;
+    public Transform enemyShotStart5;
     public Transform Target;
     public GameObject EnemyShot;
+    public GameObject EnemyShot2;
+    public GameObject EnemyShot3;
+    public GameObject EnemyShot4;
+    public GameObject EnemyShot5;
     public float nextEnemyFire;
-    Rigidbody theRigidbody;
     public float nextEnemyFireMax;
+    public int shotTimer;
 
     // Use this for initialization
     void Start()
     {
-        theRigidbody = GetComponent<Rigidbody>();
+       
     }
 
     // Update is called once per frame
@@ -34,6 +38,8 @@ public class enemyShootingHorizontal : MonoBehaviour {
             nextEnemyFire = nextEnemyFireMax;
             // nextEnemyFire = Time.deltaTime + nextEnemyFire;
             shootPlease();
+
+            StartCoroutine("altFire");
         }
         nextEnemyFire -= Time.deltaTime;
     }
@@ -42,8 +48,14 @@ public class enemyShootingHorizontal : MonoBehaviour {
     void shootPlease()
     {
         Instantiate(EnemyShot, enemyShotStart.position, enemyShotStart.rotation);
-        Instantiate(EnemyShot, enemyShotStart2.position, enemyShotStart2.rotation);
-        Instantiate(EnemyShot, enemyShotStart3.position, enemyShotStart3.rotation);
+        Instantiate(EnemyShot4, enemyShotStart4.position, enemyShotStart4.rotation);
+        Instantiate(EnemyShot5, enemyShotStart5.position, enemyShotStart5.rotation);
     }
 
+    public IEnumerator altFire()
+    {
+        yield return new WaitForSeconds(shotTimer);
+        Instantiate(EnemyShot2, enemyShotStart2.position, enemyShotStart2.rotation);
+        Instantiate(EnemyShot3, enemyShotStart3.position, enemyShotStart3.rotation);
+    }
 }

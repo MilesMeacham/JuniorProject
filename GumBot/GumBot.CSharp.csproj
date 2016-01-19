@@ -68,14 +68,18 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\CarbonCollect.cs" />
     <Compile Include="Assets\GroundCheck.cs" />
     <Compile Include="Assets\Modules\Camera\CarbonCounter.cs" />
     <Compile Include="Assets\Modules\Camera\cameraController.cs" />
+    <Compile Include="Assets\Modules\Collectables\Scripts\CarbonCollect.cs" />
+    <Compile Include="Assets\Modules\Collectables\Scripts\IronCollect.cs" />
+    <Compile Include="Assets\Modules\Collectables\Scripts\PUItem.cs" />
+    <Compile Include="Assets\Modules\Collectables\Scripts\SilicaCollect.cs" />
     <Compile Include="Assets\Modules\Enemies\Scripts\AI\PaceBetweenWalls.cs" />
     <Compile Include="Assets\Modules\Enemies\Scripts\AI\enemyBulletMovement.cs" />
+    <Compile Include="Assets\Modules\Enemies\Scripts\AI\enemyShootingLR.cs" />
     <Compile Include="Assets\Modules\Enemies\Scripts\AI\enemyShotMovement.cs" />
-    <Compile Include="Assets\Modules\Enemies\Scripts\AI\groundTurret.cs" />
+    <Compile Include="Assets\Modules\Enemies\Scripts\AI\singleShotEnemy.cs" />
     <Compile Include="Assets\Modules\Enemies\Scripts\AI\turret.cs" />
     <Compile Include="Assets\Modules\GUI\GUI Scripts\TouchInputs.cs" />
     <Compile Include="Assets\Modules\GUI\GUI Scripts\buttonLocation.cs" />
@@ -102,6 +106,7 @@
     <Compile Include="Assets\Modules\Player\Scripts\KeyboardControls.cs" />
     <Compile Include="Assets\Modules\Player\Scripts\Movement.cs" />
     <Compile Include="Assets\Modules\Player\Scripts\Player\playerMovement.cs" />
+    <Compile Include="Assets\Modules\Player\Scripts\PowerUp.cs" />
     <Compile Include="Assets\Modules\Player\Scripts\TakeDamage.cs" />
     <Compile Include="Assets\Modules\Player\Scripts\bulletMovement.cs" />
     <Compile Include="Assets\Modules\Player\Scripts\touchControls.cs" />

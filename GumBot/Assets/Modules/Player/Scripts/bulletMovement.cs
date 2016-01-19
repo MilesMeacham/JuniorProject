@@ -12,7 +12,6 @@ public class bulletMovement : MonoBehaviour
     public float shotVelocity;
     public Rigidbody rb;
     public CharacterMotor2 theCharacterMotor;
-    public GameObject TheDude;
     public float lifeDuration = 0.5f;
     private Attractor Core;
     public float Xpos;

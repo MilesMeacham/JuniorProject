@@ -1,0 +1,530 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &142376
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 463694}
+  - 65: {fileID: 6502092}
+  - 114: {fileID: 11453848}
+  m_Layer: 0
+<<<<<<< HEAD:GumBot/Assets/Modules/Enemies/Prefabs/Resources/Enemies/WaterEnemy.prefab
+  m_Name: Wall Checker
+  m_TagString: Enemy
+=======
+  m_Name: Gap Checker
+  m_TagString: Untagged
+>>>>>>> c5d8cf29eefb2440297e2a898e5ba26bde480a1d:GumBot/Assets/Modules/Enemies/Prefabs/WaterEnemy.prefab
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &149682
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 433708}
+  m_Layer: 0
+<<<<<<< HEAD:GumBot/Assets/Modules/Enemies/Prefabs/Resources/Enemies/WaterEnemy.prefab
+  m_Name: Gap Checker
+  m_TagString: Enemy
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &159366
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 405538}
+  - 65: {fileID: 6555878}
+  m_Layer: 0
+  m_Name: Shot Point
+  m_TagString: Enemy
+=======
+  m_Name: IceShotStart
+  m_TagString: Untagged
+>>>>>>> c5d8cf29eefb2440297e2a898e5ba26bde480a1d:GumBot/Assets/Modules/Enemies/Prefabs/WaterEnemy.prefab
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &155250
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 415206}
+  - 54: {fileID: 5437702}
+  - 114: {fileID: 11468546}
+  - 114: {fileID: 11442514}
+  - 114: {fileID: 11444376}
+  - 114: {fileID: 11404480}
+  - 114: {fileID: 11425698}
+  - 136: {fileID: 13602980}
+  m_Layer: 0
+<<<<<<< HEAD:GumBot/Assets/Modules/Enemies/Prefabs/Resources/Enemies/WaterEnemy.prefab
+  m_Name: WaterEnemyArt
+  m_TagString: Enemy
+=======
+  m_Name: WaterEnemy
+  m_TagString: Enemy
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &158292
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 479404}
+  - 65: {fileID: 6540668}
+  - 114: {fileID: 11438120}
+  m_Layer: 0
+  m_Name: Wall Checker
+  m_TagString: Untagged
+>>>>>>> c5d8cf29eefb2440297e2a898e5ba26bde480a1d:GumBot/Assets/Modules/Enemies/Prefabs/WaterEnemy.prefab
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &179372
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+<<<<<<< HEAD:GumBot/Assets/Modules/Enemies/Prefabs/Resources/Enemies/WaterEnemy.prefab
+  - 4: {fileID: 423596}
+  - 54: {fileID: 5488702}
+  - 114: {fileID: 11403506}
+  - 114: {fileID: 11487140}
+  - 114: {fileID: 11465860}
+  - 114: {fileID: 11414142}
+  - 114: {fileID: 11429716}
+  - 136: {fileID: 13615980}
+  - 114: {fileID: 11429276}
+  - 114: {fileID: 11441098}
+  - 114: {fileID: 11430892}
+  m_Layer: 0
+  m_Name: WaterEnemy
+  m_TagString: Enemy
+=======
+  - 4: {fileID: 489282}
+  - 33: {fileID: 3369062}
+  - 23: {fileID: 2393602}
+  m_Layer: 0
+  m_Name: WaterEnemyArt
+  m_TagString: Untagged
+>>>>>>> c5d8cf29eefb2440297e2a898e5ba26bde480a1d:GumBot/Assets/Modules/Enemies/Prefabs/WaterEnemy.prefab
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+<<<<<<< HEAD:GumBot/Assets/Modules/Enemies/Prefabs/Resources/Enemies/WaterEnemy.prefab
+--- !u!4 &405538
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 159366}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: .651000023, y: .352999985, z: 0}
+  m_LocalScale: {x: .262501866, y: .30000177, z: 1}
+  m_Children: []
+  m_Father: {fileID: 423596}
+  m_RootOrder: 3
+--- !u!4 &414620
+=======
+--- !u!4 &415206
+>>>>>>> c5d8cf29eefb2440297e2a898e5ba26bde480a1d:GumBot/Assets/Modules/Enemies/Prefabs/WaterEnemy.prefab
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 155250}
+  m_LocalRotation: {x: 0, y: 0, z: .0226670746, w: .999743104}
+  m_LocalPosition: {x: -507, y: 8070, z: 0}
+  m_LocalScale: {x: 82.75737, y: 82.75737, z: 82.7573624}
+  m_Children:
+  - {fileID: 489282}
+  - {fileID: 463694}
+  - {fileID: 479404}
+  - {fileID: 433708}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+--- !u!4 &433708
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 149682}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: .0289999992, y: 1.12199998, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 415206}
+  m_RootOrder: 3
+--- !u!4 &463694
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 142376}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: .680000007, y: -.619000018, z: 0}
+  m_LocalScale: {x: .320359498, y: 1.52316046, z: 1.20835173}
+  m_Children: []
+  m_Father: {fileID: 415206}
+  m_RootOrder: 1
+--- !u!4 &479404
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 158292}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: .469999999, y: 0, z: 0}
+  m_LocalScale: {x: .295961976, y: 1.56746387, z: 1.20835173}
+  m_Children: []
+  m_Father: {fileID: 415206}
+  m_RootOrder: 2
+<<<<<<< HEAD:GumBot/Assets/Modules/Enemies/Prefabs/Resources/Enemies/WaterEnemy.prefab
+--- !u!4 &423596
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 196100}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 24.7999992, y: 82.6999969, z: 0}
+  m_LocalScale: {x: .827573597, y: .827573597, z: .827573597}
+  m_Children:
+  - {fileID: 431018}
+  - {fileID: 414620}
+  - {fileID: 419984}
+  - {fileID: 405538}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+--- !u!4 &431018
+=======
+--- !u!4 &489282
+>>>>>>> c5d8cf29eefb2440297e2a898e5ba26bde480a1d:GumBot/Assets/Modules/Enemies/Prefabs/WaterEnemy.prefab
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 179372}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 415206}
+  m_RootOrder: 0
+--- !u!23 &2393602
+MeshRenderer:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 179372}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_Materials:
+  - {fileID: 2100000, guid: fae7f24d1b46b0e43aec07b45f337f82, type: 2}
+  m_SubsetIndices: 
+  m_StaticBatchRoot: {fileID: 0}
+  m_UseLightProbes: 1
+  m_ReflectionProbeUsage: 1
+  m_ProbeAnchor: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 1
+  m_ImportantGI: 0
+  m_AutoUVMaxDistance: .5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingOrder: 0
+--- !u!33 &3369062
+MeshFilter:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 179372}
+  m_Mesh: {fileID: 10208, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!54 &5437702
+Rigidbody:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 155250}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: .0500000007
+  m_UseGravity: 0
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 112
+  m_CollisionDetection: 0
+--- !u!65 &6502092
+BoxCollider:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 142376}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
+<<<<<<< HEAD:GumBot/Assets/Modules/Enemies/Prefabs/Resources/Enemies/WaterEnemy.prefab
+--- !u!65 &6555878
+BoxCollider:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 159366}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 0
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!65 &6590668
+=======
+--- !u!65 &6540668
+>>>>>>> c5d8cf29eefb2440297e2a898e5ba26bde480a1d:GumBot/Assets/Modules/Enemies/Prefabs/WaterEnemy.prefab
+BoxCollider:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 158292}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!114 &11404480
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 155250}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9cf9d7cf57f77cc4993bb4661eb61506, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  immuneToPlayerDamage: 0
+  immuneToEnemyDamage: 1
+  immuneToHazardDamage: 1
+--- !u!114 &11425698
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 155250}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 455f731a62909ad429914aba035f9dae, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  attractor: {fileID: 0}
+--- !u!114 &11438120
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 158292}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1c7e8ead269e0684ea553a9eb239fd37, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+<<<<<<< HEAD:GumBot/Assets/Modules/Enemies/Prefabs/Resources/Enemies/WaterEnemy.prefab
+  immuneToPlayerDamage: 0
+  immuneToEnemyDamage: 1
+  immuneToHazardDamage: 1
+--- !u!114 &11429276
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 196100}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3738a9b85d622204d9c6e6ef3f19c927, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  bullet: {fileID: 193918, guid: 6e93c717813752b42a1f272ae8358cae, type: 2}
+  shootingPoint: {fileID: 405538}
+  damage: 1
+  reloadTime: .5
+  reloading: 0
+  bulletTag: EnemyBullet
+--- !u!114 &11429716
+=======
+  grounded: 0
+  groundCheck: {fileID: 479404}
+  whatIsGround:
+    serializedVersion: 2
+    m_Bits: 256
+--- !u!114 &11442514
+>>>>>>> c5d8cf29eefb2440297e2a898e5ba26bde480a1d:GumBot/Assets/Modules/Enemies/Prefabs/WaterEnemy.prefab
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 155250}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c9fba37c1ba4dbb4db58c24e5c8e8177, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+<<<<<<< HEAD:GumBot/Assets/Modules/Enemies/Prefabs/Resources/Enemies/WaterEnemy.prefab
+  attractor: {fileID: 0}
+--- !u!114 &11430892
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 196100}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0dc6fc2dc880b6644abf2ed00292590b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  targetDistance: 0
+  theCharacterMotor: {fileID: 0}
+  frontOrBack: {x: 0, y: 0, z: 0}
+  Target: {fileID: 0}
+--- !u!114 &11441098
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 196100}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d07c62665d8135a4282555c19ef50aae, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  startShootingDistance: 15
+--- !u!114 &11465860
+=======
+  wallCheck: {fileID: 11438120}
+  gapCheck: {fileID: 11453848}
+  turning: 0
+  turnDuration: 0
+--- !u!114 &11444376
+>>>>>>> c5d8cf29eefb2440297e2a898e5ba26bde480a1d:GumBot/Assets/Modules/Enemies/Prefabs/WaterEnemy.prefab
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 155250}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: da7ccb8c6cc284d42bc4c798344dd0a3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  health: 3
+  maxHealth: 3
+  minHealth: 0
+  possibleMaxHealth: 10
+  invincible: 0
+  invincibilityTime: 0
+--- !u!114 &11453848
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 142376}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1c7e8ead269e0684ea553a9eb239fd37, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  grounded: 1
+  groundCheck: {fileID: 463694}
+  whatIsGround:
+    serializedVersion: 2
+    m_Bits: 256
+--- !u!114 &11468546
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 155250}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f221cb4b82bfbe04da234e7a5cef46f7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  rb: {fileID: 5437702}
+  speed: 3
+  maxSpeed: 5
+  characterMovement: {x: 3, y: 0, z: 0}
+  velocity: {x: 0, y: 0, z: 0}
+  jumpForce: 15
+  facingRight: 0
+  movingLeft: 1
+  movingRight: 0
+--- !u!136 &13602980
+CapsuleCollider:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 155250}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  m_Radius: .5
+  m_Height: 2
+  m_Direction: 1
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 0}
+      propertyPath: turning
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: facingRight
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: movingRight
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: movingLeft
+      value: 1
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 155250}
+  m_IsPrefabParent: 1
