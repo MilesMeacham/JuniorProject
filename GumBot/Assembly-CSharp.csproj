@@ -68,6 +68,7 @@
      <Compile Include="Assets\Level\Scripts\Gravity\Attractor.cs" />
      <Compile Include="Assets\Level\Scripts\Gravity\CharacterGravity.cs" />
      <Compile Include="Assets\Level\Scripts\Gravity\TransferGravity.cs" />
+     <Compile Include="Assets\Level\Scripts\Hazards\MasherTrigger.cs" />
      <Compile Include="Assets\Level\Scripts\Hazards\PitHazard.cs" />
      <Compile Include="Assets\Level\Scripts\Hazards\SpikeHazard.cs" />
      <Compile Include="Assets\Level\Scripts\Level\MoverScript.cs" />
@@ -96,17 +97,11 @@
      <Compile Include="Assets\Player\Scripts\bulletMovement.cs" />
      <Compile Include="Assets\Player\Scripts\touchControls.cs" />
      <Compile Include="Assets\instantiate.cs" />
- <Reference Include="UnityEngine.Advertisements">
- <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/Advertisements/UnityEngine.Advertisements.dll</HintPath>
- </Reference>
  <Reference Include="UnityEngine.UI">
  <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
  </Reference>
  <Reference Include="UnityEngine.Networking">
  <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/Networking/UnityEngine.Networking.dll</HintPath>
- </Reference>
- <Reference Include="UnityEngine.Analytics">
- <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/UnityAnalytics/UnityEngine.Analytics.dll</HintPath>
  </Reference>
  <Reference Include="Mono.Cecil">
  <HintPath>C:/Program Files/Unity/Editor/Data/Managed/Mono.Cecil.dll</HintPath>

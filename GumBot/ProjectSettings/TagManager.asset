@@ -18,6 +18,8 @@ TagManager:
   - HealthRest
   - Spikes
   - Pit
+  - Lava
+  - Masher
   layers:
   - Default
   - TransparentFX

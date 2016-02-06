@@ -13,6 +13,10 @@ public class TakeDamage : MonoBehaviour {
 
 	private CharacterHealth theCharacterHealth;
 
+	private Vector3 HazardKnockback;
+
+	public float LavaKnockback = 10.0f;
+
 	// Customize these in the editor according to the character they are attached to
 	// Each will make the character immune to receiving that certain type of damage
 	public bool immuneToPlayerDamage;
@@ -49,9 +53,24 @@ public class TakeDamage : MonoBehaviour {
 		// if character is not immune to hazard damage, he will detect these
 		if (!immuneToHazardDamage) 
 		{
-			if (collider.gameObject.tag == "Spikes") {
+			if (collider.gameObject.tag == "Spikes")
+			{
 				theCharacterHealth.removeHealth (1f);
 				theCharacterHealth.Invincibility ();
+			}
+
+			if (collider.gameObject.tag == "Lava")
+			{
+				theCharacterHealth.removeHealth (2f);
+				theCharacterHealth.Invincibility ();
+				HazardKnockback = new Vector3 (0,LavaKnockback,0);
+				GetComponent<Rigidbody>().velocity = transform.TransformDirection(HazardKnockback);
+			}
+
+			if (collider.gameObject.tag == "Masher")
+			{
+				theCharacterHealth.removeHealth (999f);
+				theCharacterHealth.Invincibility();
 			}
 		}
 
