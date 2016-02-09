@@ -17,6 +17,8 @@ Global
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
+<<<<<<< HEAD
+=======
 																																																																																																																																																																																													GlobalSection(MonoDevelopProperties) = preSolution
 =======
 <<<<<<< HEAD
@@ -71,4 +73,5 @@ Global
 		$3.scope = text/plain
 	EndGlobalSection
 
+>>>>>>> 1a4bd6b1d9e9cc9836dcb24f130c5a4f46ab88d8
 EndGlobal

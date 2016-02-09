@@ -16,7 +16,6 @@ public class ExplodeTimer : MonoBehaviour {
     {
        yield return new WaitForSeconds(timer);
         Destroy(gameObject);
-
     }
 
 }

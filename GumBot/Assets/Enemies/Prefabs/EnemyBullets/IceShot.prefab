@@ -12,7 +12,7 @@ GameObject:
   - 135: {fileID: 13500890}
   - 23: {fileID: 2318580}
   - 54: {fileID: 5487348}
-  - 114: {fileID: 11462814}
+  - 114: {fileID: 11471684}
   m_Layer: 0
   m_Name: IceShot
   m_TagString: IceShot
@@ -78,7 +78,7 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
---- !u!114 &11462814
+--- !u!114 &11471684
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
@@ -86,17 +86,17 @@ MonoBehaviour:
   m_GameObject: {fileID: 149912}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ea568950ef63c334fa5e5cfe95466fe3, type: 3}
+  m_Script: {fileID: 11500000, guid: c531b744737d1094393ceeb9d7c0aa42, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   enemyShotVelocityX: 20
   enemyShotVelocityY: 0
   rb: {fileID: 5487348}
   lifeDuration: 2
+  Xpos: 0
+  Ypos: 0
   radius: 0
   damage: 1
-  shootingRight: 1
-  theCharacterMotor: {fileID: 0}
 --- !u!135 &13500890
 SphereCollider:
   m_ObjectHideFlags: 1
@@ -132,6 +132,10 @@ Prefab:
       propertyPath: enemyShotVelocityX
       value: 20
       objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: rb
+      value: 
+      objectReference: {fileID: 5487348}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 0}
   m_RootGameObject: {fileID: 149912}
