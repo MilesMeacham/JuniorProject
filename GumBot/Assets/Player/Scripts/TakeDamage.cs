@@ -37,7 +37,7 @@ public class TakeDamage : MonoBehaviour {
 		if (!immuneToEnemyDamage) 
 		{
 			// Touching enemy hurts you
-			if (collider.gameObject.tag == "Enemy")
+			if (collider.transform.tag == "Enemy")
 			{
 				theCharacterHealth.removeHealth(1f);
 				theCharacterHealth.Invincibility();

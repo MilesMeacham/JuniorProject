@@ -63,7 +63,6 @@ public class bulletMovement : MonoBehaviour
     public IEnumerator Destroybullet()
     {
 		startedCO = true;
-		print ("Started Bullet CO");
 		if (theCharacterMotor.facingRight == true)
 		{
 			rb.velocity = transform.TransformDirection(new Vector3(shotVelocity, 0, 0));

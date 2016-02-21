@@ -2600,7 +2600,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 492170, guid: 261c3e30eb21b714b8f62fc9ba66a9b0, type: 2}
       propertyPath: m_RootOrder
-      value: 9
+      value: 11
       objectReference: {fileID: 0}
     - target: {fileID: 197548, guid: 261c3e30eb21b714b8f62fc9ba66a9b0, type: 2}
       propertyPath: m_Name
@@ -3764,6 +3764,14 @@ Prefab:
     - target: {fileID: 197548, guid: 261c3e30eb21b714b8f62fc9ba66a9b0, type: 2}
       propertyPath: m_Name
       value: EarthEnemy (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 119174, guid: 261c3e30eb21b714b8f62fc9ba66a9b0, type: 2}
+      propertyPath: m_TagString
+      value: Enemy
+      objectReference: {fileID: 0}
+    - target: {fileID: 6551574, guid: 261c3e30eb21b714b8f62fc9ba66a9b0, type: 2}
+      propertyPath: m_Enabled
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 261c3e30eb21b714b8f62fc9ba66a9b0, type: 2}
