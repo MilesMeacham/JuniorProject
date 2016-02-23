@@ -57,7 +57,6 @@
      <Compile Include="Assets\Enemies\Scripts\EnemyStomp.cs" />
      <Compile Include="Assets\Enemies\Scripts\HeadStomp.cs" />
      <Compile Include="Assets\Enemies\Scripts\enemyAnimation.cs" />
-     <Compile Include="Assets\GUI\GUI Scripts\ObjectiveScript.cs" />
      <Compile Include="Assets\GUI\GUI Scripts\TouchInputs.cs" />
      <Compile Include="Assets\GUI\GUI Scripts\buttonLocation.cs" />
      <Compile Include="Assets\GUI\GUI Scripts\buttonTouch.cs" />

@@ -89,10 +89,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7180949053df9f64bb6c9132abc72c58, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  shotVelocity: 20
+  shotVelocity: 30
   rb: {fileID: 5420450}
   theCharacterMotor: {fileID: 0}
-  lifeDuration: 10
+  lifeDuration: .699999988
   Xpos: 0
   Ypos: 0
   radius: 0
@@ -120,7 +120,7 @@ Prefab:
     m_Modifications:
     - target: {fileID: 0}
       propertyPath: shotVelocity
-      value: 25
+      value: 30
       objectReference: {fileID: 0}
     - target: {fileID: 0}
       propertyPath: TheDude
@@ -136,7 +136,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 0}
       propertyPath: lifeDuration
-      value: 10
+      value: .699999988
       objectReference: {fileID: 0}
     - target: {fileID: 0}
       propertyPath: m_Enabled
