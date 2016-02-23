@@ -10,7 +10,13 @@ using System.Collections;
 public class CharacterShot : MonoBehaviour {
 
 	public ObjectPooler bulletPools;
+
+
     public GameObject bullet;
+
+	// Set this to which ever projectile you want him to shoot, if unchanged it will shoot the basic bullets.
+	public string poolName = "BulletPooler";
+
     public Transform shootingPoint;
 	public float damage = 1;
 	public float reloadTime = 0.5f;
@@ -23,7 +29,7 @@ public class CharacterShot : MonoBehaviour {
 
 	void Start()
 	{
-		bulletPools = GameObject.Find ("BulletPooler").GetComponent<ObjectPooler> ();
+		bulletPools = GameObject.Find (poolName).GetComponent<ObjectPooler> ();
 	}
 
     public void shot()

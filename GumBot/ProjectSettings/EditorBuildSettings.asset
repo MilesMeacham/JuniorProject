@@ -13,3 +13,5 @@ EditorBuildSettings:
     path: Assets/Scenes/TestLevelNoGeneration-Miles.unity
   - enabled: 1
     path: Assets/Scenes/GUI Scenes/DeathScreen.unity
+  - enabled: 1
+    path: Assets/Cut Scenes/Opening Story/OpeningStoryScene.unity

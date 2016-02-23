@@ -57,6 +57,7 @@
      <Compile Include="Assets\Enemies\Scripts\EnemyStomp.cs" />
      <Compile Include="Assets\Enemies\Scripts\HeadStomp.cs" />
      <Compile Include="Assets\Enemies\Scripts\enemyAnimation.cs" />
+     <Compile Include="Assets\GUI\GUI Scripts\ObjectiveScript.cs" />
      <Compile Include="Assets\GUI\GUI Scripts\TouchInputs.cs" />
      <Compile Include="Assets\GUI\GUI Scripts\buttonLocation.cs" />
      <Compile Include="Assets\GUI\GUI Scripts\buttonTouch.cs" />
@@ -114,17 +115,11 @@
      <Compile Include="Assets\Player\Scripts\bulletMovement.cs" />
      <Compile Include="Assets\Player\Scripts\touchControls.cs" />
      <Compile Include="Assets\instantiate.cs" />
- <Reference Include="UnityEngine.Advertisements">
- <HintPath>Z:/Programs/Unity/Editor/Data/UnityExtensions/Unity/Advertisements/UnityEngine.Advertisements.dll</HintPath>
- </Reference>
  <Reference Include="UnityEngine.UI">
  <HintPath>Z:/Programs/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
  </Reference>
  <Reference Include="UnityEngine.Networking">
  <HintPath>Z:/Programs/Unity/Editor/Data/UnityExtensions/Unity/Networking/UnityEngine.Networking.dll</HintPath>
- </Reference>
- <Reference Include="UnityEngine.Analytics">
- <HintPath>Z:/Programs/Unity/Editor/Data/UnityExtensions/Unity/UnityAnalytics/UnityEngine.Analytics.dll</HintPath>
  </Reference>
  <Reference Include="Mono.Cecil">
  <HintPath>Z:/Programs/Unity/Editor/Data/Managed/Mono.Cecil.dll</HintPath>
