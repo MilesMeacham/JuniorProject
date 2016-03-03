@@ -105,6 +105,7 @@ public class interfaceScript : MonoBehaviour {
 	public void NewGame ()
 	{
 		print ("New Game");
+		Application.LoadLevel ("OpeningStoryScene");
 	}
 
 	//----------------------------- PAGES -----------------------------
