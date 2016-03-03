@@ -9,7 +9,7 @@ public class buttonTouch : MonoBehaviour {
 	private Material mat;
 
 	void Start(){
-		mat = GetComponent<Renderer>().material;
+	//	mat = GetComponent<Renderer>().material;
 		mat.color = defaultColor;
 	}
 

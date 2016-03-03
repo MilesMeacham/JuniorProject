@@ -1,5 +1,6 @@
 ﻿using UnityEngine;
 using System.Collections;
+using UnityEngine.UI;
 
 public class interfaceScript : MonoBehaviour {
 
@@ -22,6 +23,10 @@ public class interfaceScript : MonoBehaviour {
 	public static bool isWeaponsWindowOpen = false;
 	public static bool isArmorWindowOpen = false;
 
+	//Loading Screen Variables
+	public GameObject LoadingScene;
+	//public Image LoadingBar;
+
 	// Use this for initialization
 	void Start () {
 	
@@ -42,6 +47,26 @@ public class interfaceScript : MonoBehaviour {
 		}
 	}
 
+	//----------------------------- LOADING SCREEN -----------------------------
+	public void LoadingScreen ()
+	{
+		StartCoroutine (LoadLevelCo ());
+	}
+
+	IEnumerator LoadLevelCo ()
+	{
+		LoadingScene.SetActive (true);
+		AsyncOperation async = Application.LoadLevelAsync (1);
+
+		while (!async.isDone) 
+		{
+			//LoadingBar.fillAmount = async.progress / 0.9f;
+			yield return null;
+		}
+
+	}
+
+
 	//----------------------------- MAIN MENU -----------------------------
 	public void MainMenu ()
 	{
@@ -53,6 +78,7 @@ public class interfaceScript : MonoBehaviour {
 	{
 		print ("Start Level");
 		Application.LoadLevel ("TestLevelNoGeneration-Miles");
+		LoadingScreen ();
 	}
 
 	public void NewGamePopUp ()

@@ -24,12 +24,28 @@ public class CharacterAutoCrouch : MonoBehaviour {
 	private CharacterAutoCrouchTop theCharacterAutoCrouchTop;
 	private CharacterAutoCrouchBottom theCharacterAutoCrouchBottom;
 
+	//Adjust Box Collider
+	private BoxCollider playerCollider;
+	private Vector3 originalColliderSize;
+	private Vector3 originalColliderCenter;
+
+	private Vector3 crouchedColliderSize = new Vector3 (1.65f, 0.85f, 1f);
+	private Vector3 crouchedColliderCenter = new Vector3 (0.3f, -0.4f, 0f);
+
+
+	//Animator
+	private Animator theAnimator;
+
 	// Use this for initialization
 	void Start () 
 	{
 		theCharacterMotor = GetComponentInParent<CharacterMotor2> ();
 		theCharacterAutoCrouchTop = GetComponentInChildren<CharacterAutoCrouchTop> ();
 		theCharacterAutoCrouchBottom = GetComponentInChildren<CharacterAutoCrouchBottom> ();
+		theAnimator = GetComponentInParent<CharacterMotor2>().theAnimator;
+		playerCollider = GetComponentInParent<BoxCollider>();
+		originalColliderSize = playerCollider.size;
+		originalColliderCenter = playerCollider.center;
 	}
 	
 	// Update is called once per frame
@@ -41,13 +57,16 @@ public class CharacterAutoCrouch : MonoBehaviour {
 		if (!bottom && top && theGroundCheck.grounded && !crouching) 
 		{
 			crouching = true;
+			theAnimator.SetBool ("Crouch", true);
 
 			// crouch
-			theCharacterMotor.transform.localScale = new Vector3 (theCharacterMotor.transform.localScale.x, theCharacterMotor.transform.localScale.y / 2, theCharacterMotor.transform.localScale.z);
+			//theCharacterMotor.transform.localScale = new Vector3 (theCharacterMotor.transform.localScale.x, theCharacterMotor.transform.localScale.y / 2, theCharacterMotor.transform.localScale.z);
 
 			// adjust the colliders because the shrink when the character crouches
-			theCharacterAutoCrouchTop.transform.localPosition = new Vector3 (theCharacterAutoCrouchTop.transform.localPosition.x, theCharacterAutoCrouchTop.transform.localPosition.y * 3, theCharacterAutoCrouchTop.transform.localPosition.z);
-			theCharacterAutoCrouchTop.transform.localScale = new Vector3 (theCharacterAutoCrouchTop.transform.localScale.x, theCharacterAutoCrouchTop.transform.localScale.y * 2, theCharacterAutoCrouchTop.transform.localScale.z);
+			playerCollider.size = crouchedColliderSize;
+			playerCollider.center = crouchedColliderCenter;
+			//theCharacterAutoCrouchTop.transform.localPosition = new Vector3 (theCharacterAutoCrouchTop.transform.localPosition.x, theCharacterAutoCrouchTop.transform.localPosition.y * 3, theCharacterAutoCrouchTop.transform.localPosition.z);
+			//theCharacterAutoCrouchTop.transform.localScale = new Vector3 (theCharacterAutoCrouchTop.transform.localScale.x, theCharacterAutoCrouchTop.transform.localScale.y * 2, theCharacterAutoCrouchTop.transform.localScale.z);
 
 		}
 
@@ -56,12 +75,15 @@ public class CharacterAutoCrouch : MonoBehaviour {
 		if (crouching && !top)
 		{
 			crouching = false;
+			theAnimator.SetBool ("Crouch", false);
 			// uncrouch
-			theCharacterMotor.transform.localScale = new Vector3 (theCharacterMotor.transform.localScale.x, theCharacterMotor.transform.localScale.y * 2, theCharacterMotor.transform.localScale.z);
+			//theCharacterMotor.transform.localScale = new Vector3 (theCharacterMotor.transform.localScale.x, theCharacterMotor.transform.localScale.y * 2, theCharacterMotor.transform.localScale.z);
 
 			// set the size and position of the colliders back to normal.
-			theCharacterAutoCrouchTop.transform.localPosition = new Vector3 (theCharacterAutoCrouchTop.transform.localPosition.x, theCharacterAutoCrouchTop.transform.localPosition.y / 3, theCharacterAutoCrouchTop.transform.localPosition.z);
-			theCharacterAutoCrouchTop.transform.localScale = new Vector3 (theCharacterAutoCrouchTop.transform.localScale.x, theCharacterAutoCrouchTop.transform.localScale.y / 2, theCharacterAutoCrouchTop.transform.localScale.z);
+			playerCollider.size = originalColliderSize;
+			playerCollider.center = originalColliderCenter;
+			//theCharacterAutoCrouchTop.transform.localPosition = new Vector3 (theCharacterAutoCrouchTop.transform.localPosition.x, theCharacterAutoCrouchTop.transform.localPosition.y / 3, theCharacterAutoCrouchTop.transform.localPosition.z);
+			//theCharacterAutoCrouchTop.transform.localScale = new Vector3 (theCharacterAutoCrouchTop.transform.localScale.x, theCharacterAutoCrouchTop.transform.localScale.y / 2, theCharacterAutoCrouchTop.transform.localScale.z);
 
 		}
 

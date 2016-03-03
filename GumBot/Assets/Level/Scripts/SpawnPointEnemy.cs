@@ -18,11 +18,13 @@ public class SpawnPointEnemy : MonoBehaviour {
 	public int basicEnemyChance;
 	public int earthEnemyChance;
 	public int waterEnemyChance;
+	public int airEnemyChance;
 
 	private int min;
 	private int e1Max;
 	private int e2Max;
 	private int e3Max;
+	private int e4Max;
 	
 	private int randNumber;
 
@@ -46,6 +48,7 @@ public class SpawnPointEnemy : MonoBehaviour {
 		e1Max = basicEnemyChance;
 		e2Max = e1Max + earthEnemyChance;
 		e3Max = e2Max + waterEnemyChance;
+		e4Max = e3Max + airEnemyChance;
 
 		randNumber = Random.Range (min + 1, e3Max);
 
@@ -55,6 +58,9 @@ public class SpawnPointEnemy : MonoBehaviour {
 			Instantiate (allEnemies [1], new Vector3(gameObject.transform.position.x, (gameObject.transform.position.y + enemyHeights[1] - 1), gameObject.transform.position.z), gameObject.transform.rotation);
 		if (randNumber <= e3Max && randNumber > e2Max)
 			Instantiate (allEnemies [2], new Vector3(gameObject.transform.position.x, (gameObject.transform.position.y + enemyHeights[2] - 1), gameObject.transform.position.z), gameObject.transform.rotation);
+		if (randNumber <= e4Max && randNumber > e3Max)
+			Instantiate (allEnemies [3], new Vector3(gameObject.transform.position.x, (gameObject.transform.position.y + enemyHeights[2] - 1), gameObject.transform.position.z), gameObject.transform.rotation);
+
 
 		gameObject.SetActive (false);
 
