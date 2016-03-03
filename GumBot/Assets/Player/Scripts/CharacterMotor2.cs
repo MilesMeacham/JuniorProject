@@ -22,11 +22,15 @@ public class CharacterMotor2 : MonoBehaviour {
 	
 	public bool movingLeft = false;
 	public bool movingRight = false;
+
+	//Animator
+	public Animator theAnimator;
 	
 	// Use this for initialization
 	void Start () 
 	{
 		rb = GetComponent<Rigidbody> ();
+		theAnimator = GetComponentInChildren<Animator>();
 	}
 	
 	
@@ -66,6 +70,20 @@ public class CharacterMotor2 : MonoBehaviour {
 			rb.MovePosition (rb.position + transform.TransformDirection (characterMovement) * Time.deltaTime);
 			movingLeft = false;
 		}
+
+		//Animator Control
+		if(gameObject.tag == "Player")
+		{
+			if(movingLeft == true || movingRight == true)
+			{
+				theAnimator.SetBool ("Walk", true);
+			}
+			else
+			{
+				theAnimator.SetBool ("Walk", false);
+			}
+		}
+
 	}
 	
 	
