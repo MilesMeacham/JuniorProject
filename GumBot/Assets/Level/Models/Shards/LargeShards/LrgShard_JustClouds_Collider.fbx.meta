@@ -1,6 +1,6 @@
 fileFormatVersion: 2
-guid: 064106123baff0e44968e7f162911638
-timeCreated: 1455920543
+guid: 766dcef043519fa4ea6fb334db4e9a9c
+timeCreated: 1457125641
 licenseType: Free
 ModelImporter:
   serializedVersion: 18
@@ -37,7 +37,9 @@ ModelImporter:
     100058: Cloud9
     100060: Cloud_Primary
     100062: Cloud_Secondary
-    100064: //RootNode
+    100064: CloudsLarge_Group
+    100066: CloudsSmall_Group
+    100068: //RootNode
     400000: Cloud1
     400002: Cloud10
     400004: Cloud11
@@ -70,7 +72,9 @@ ModelImporter:
     400058: Cloud9
     400060: Cloud_Primary
     400062: Cloud_Secondary
-    400064: //RootNode
+    400064: CloudsLarge_Group
+    400066: CloudsSmall_Group
+    400068: //RootNode
     2300000: Cloud1
     2300002: Cloud10
     2300004: Cloud11
@@ -135,8 +139,8 @@ ModelImporter:
     3300058: Cloud9
     3300060: Cloud_Primary
     3300062: Cloud_Secondary
-    4300000: Cloud_Primary
-    4300002: Cloud_Secondary
+    4300000: Cloud_Secondary
+    4300002: Cloud_Primary
     4300004: Cloud1
     4300006: Cloud2
     4300008: Cloud3

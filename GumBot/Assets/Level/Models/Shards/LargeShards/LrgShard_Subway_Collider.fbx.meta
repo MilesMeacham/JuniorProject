@@ -1,6 +1,6 @@
 fileFormatVersion: 2
-guid: d26ef575c96004e56a86eb918c23068e
-timeCreated: 1454612793
+guid: 6fbb18a90c7dcba4c8de7f4b555b737f
+timeCreated: 1457125901
 licenseType: Free
 ModelImporter:
   serializedVersion: 18
@@ -18,9 +18,11 @@ ModelImporter:
     100020: cloud7
     100022: cloud8
     100024: cloud9
-    100026: Island1
-    100028: Island2
-    100030: //RootNode
+    100026: Clouds_Group
+    100028: Island1
+    100030: Island2
+    100032: Islands_Group
+    100034: //RootNode
     400000: cloud1
     400002: cloud10
     400004: cloud12
@@ -34,9 +36,11 @@ ModelImporter:
     400020: cloud7
     400022: cloud8
     400024: cloud9
-    400026: Island1
-    400028: Island2
-    400030: //RootNode
+    400026: Clouds_Group
+    400028: Island1
+    400030: Island2
+    400032: Islands_Group
+    400034: //RootNode
     2300000: cloud1
     2300002: cloud10
     2300004: cloud12
@@ -69,19 +73,19 @@ ModelImporter:
     3300028: Island2
     4300000: cloud1
     4300002: cloud2
-    4300004: Island1
-    4300006: cloud4
-    4300008: cloud5
-    4300010: cloud6
-    4300012: cloud7
-    4300014: cloud8
-    4300016: cloud9
-    4300018: cloud10
-    4300020: Island2
-    4300022: cloud12
-    4300024: cloud13
-    4300026: cloud14
-    4300028: cloud15
+    4300004: cloud4
+    4300006: cloud5
+    4300008: cloud6
+    4300010: cloud7
+    4300012: cloud8
+    4300014: cloud9
+    4300016: cloud10
+    4300018: cloud12
+    4300020: cloud13
+    4300022: cloud14
+    4300024: cloud15
+    4300026: Island1
+    4300028: Island2
     9500000: //RootNode
   materials:
     importMaterials: 1
