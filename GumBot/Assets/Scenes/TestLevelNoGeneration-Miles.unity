@@ -626,8 +626,12 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 444100, guid: 63f5394133320d04f821866b2282b639, type: 2}
       propertyPath: m_RootOrder
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 22325386, guid: 63f5394133320d04f821866b2282b639, type: 2}
+      propertyPath: m_Camera
+      value: 
+      objectReference: {fileID: 2013678623}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 63f5394133320d04f821866b2282b639, type: 2}
   m_IsPrefabParent: 0
@@ -668,7 +672,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 435876, guid: a7c9e95734328a24f86fe9f69c9a8784, type: 2}
       propertyPath: m_RootOrder
-      value: 2
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 166370, guid: a7c9e95734328a24f86fe9f69c9a8784, type: 2}
       propertyPath: m_Name
@@ -714,7 +718,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 435876, guid: a7c9e95734328a24f86fe9f69c9a8784, type: 2}
       propertyPath: m_RootOrder
-      value: 4
+      value: 8
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: a7c9e95734328a24f86fe9f69c9a8784, type: 2}
@@ -1110,7 +1114,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 435876, guid: a7c9e95734328a24f86fe9f69c9a8784, type: 2}
       propertyPath: m_RootOrder
-      value: 3
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 166370, guid: a7c9e95734328a24f86fe9f69c9a8784, type: 2}
       propertyPath: m_Name
@@ -1313,17 +1317,13 @@ Prefab:
       propertyPath: m_RootOrder
       value: 13
       objectReference: {fileID: 0}
+    - target: {fileID: 22379108, guid: 261c3e30eb21b714b8f62fc9ba66a9b0, type: 2}
+      propertyPath: m_Camera
+      value: 
+      objectReference: {fileID: 2013678623}
     - target: {fileID: 197548, guid: 261c3e30eb21b714b8f62fc9ba66a9b0, type: 2}
       propertyPath: m_Name
       value: EarthEnemy (3)
-      objectReference: {fileID: 0}
-    - target: {fileID: 119174, guid: 261c3e30eb21b714b8f62fc9ba66a9b0, type: 2}
-      propertyPath: m_TagString
-      value: Enemy
-      objectReference: {fileID: 0}
-    - target: {fileID: 6551574, guid: 261c3e30eb21b714b8f62fc9ba66a9b0, type: 2}
-      propertyPath: m_Enabled
-      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 261c3e30eb21b714b8f62fc9ba66a9b0, type: 2}
@@ -1365,8 +1365,12 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 435876, guid: a7c9e95734328a24f86fe9f69c9a8784, type: 2}
       propertyPath: m_RootOrder
-      value: 6
+      value: 9
       objectReference: {fileID: 0}
+    - target: {fileID: 22351068, guid: a7c9e95734328a24f86fe9f69c9a8784, type: 2}
+      propertyPath: m_Camera
+      value: 
+      objectReference: {fileID: 2013678623}
     - target: {fileID: 166370, guid: a7c9e95734328a24f86fe9f69c9a8784, type: 2}
       propertyPath: m_Name
       value: BasicEnemy (1)
@@ -1478,7 +1482,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 435876, guid: a7c9e95734328a24f86fe9f69c9a8784, type: 2}
       propertyPath: m_RootOrder
-      value: 8
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 166370, guid: a7c9e95734328a24f86fe9f69c9a8784, type: 2}
       propertyPath: m_Name
@@ -1487,6 +1491,11 @@ Prefab:
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: a7c9e95734328a24f86fe9f69c9a8784, type: 2}
   m_IsPrefabParent: 0
+--- !u!20 &2013678623 stripped
+Camera:
+  m_PrefabParentObject: {fileID: 2088230, guid: 004a0378d71a3d9468868220f24172ef,
+    type: 2}
+  m_PrefabInternal: {fileID: 1165123972}
 --- !u!224 &2032717670 stripped
 RectTransform:
   m_PrefabParentObject: {fileID: 22454552, guid: 4dc992bcbbfd4421586d36822d45c408,
