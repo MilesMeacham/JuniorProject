@@ -17,6 +17,9 @@ public class bulletMovement : MonoBehaviour
     public float Xpos;
     public float Ypos;
     public float radius;
+
+	public bool startedCO;
+	
 	public float damage = 1;
 	public bool shootingRight;
 
@@ -25,16 +28,7 @@ public class bulletMovement : MonoBehaviour
     void Start()
     {
         rb = GetComponent<Rigidbody>();
-		if (theCharacterMotor.facingRight == true)
-        {
-            rb.velocity = transform.TransformDirection(new Vector3(shotVelocity, 0, 0));
-			shootingRight = true;
-        }
-		if (theCharacterMotor.facingRight == false)
-        {
-            rb.velocity = transform.TransformDirection(new Vector3(-shotVelocity, 0, 0));
-			shootingRight = false;
-        }
+
         Core = FindObjectOfType<Attractor>();
         radius = Vector3.Distance(rb.position, Core.GetComponent<Transform>().position);
 
@@ -62,36 +56,56 @@ public class bulletMovement : MonoBehaviour
         }
 
 
-
-        StartCoroutine("Destroybullet");
+		if(!startedCO)
+       		StartCoroutine(Destroybullet());
     }
 
     public IEnumerator Destroybullet()
     {
+		startedCO = true;
+		if (theCharacterMotor.facingRight == true)
+		{
+			rb.velocity = transform.TransformDirection(new Vector3(shotVelocity, 0, 0));
+			shootingRight = true;
+		}
+		if (theCharacterMotor.facingRight == false)
+		{
+			rb.velocity = transform.TransformDirection(new Vector3(-shotVelocity, 0, 0));
+			shootingRight = false;
+		}
         yield return new WaitForSeconds(lifeDuration);
-        Destroy(gameObject);
+
+		gameObject.SetActive (false);
+		startedCO = false;
     }
 
 
 	void OnCollisionEnter (Collision collider)
 	{
-		if (gameObject.tag == "PlayerBullet" && collider.gameObject.tag != "Player") {
-
-			Destroy (gameObject);
-
+		if (gameObject.tag == "PlayerBullet" && collider.gameObject.tag != "Player") 
+		{
+			gameObject.SetActive (false);
+			startedCO = false;
 		}
-		if(gameObject.tag == "EnemyBullet" && collider.gameObject.tag != "Enemy")
-			Destroy(gameObject);
+		if (gameObject.tag == "EnemyBullet" && collider.gameObject.tag != "Enemy") 
+		{
+			gameObject.SetActive (false);
+			startedCO = false;
+		}
 	}
 	
 	// These are for all trigger damage dealing objects
 	void OnTriggerEnter (Collider collider)
 	{
-		if (gameObject.tag == "PlayerBullet" && collider.gameObject.tag != "Player")
-			Destroy (gameObject);
-
-		if(gameObject.tag == "EnemyBullet" && collider.gameObject.tag != "Enemy")
-			Destroy(gameObject);
-		
+		if (gameObject.tag == "PlayerBullet" && collider.gameObject.tag != "Player") 
+		{
+			gameObject.SetActive (false);
+			startedCO = false;
+		}
+		if (gameObject.tag == "EnemyBullet" && collider.gameObject.tag != "Enemy") 
+		{
+			gameObject.SetActive (false);
+			startedCO = false;
+		}
 	}
 }

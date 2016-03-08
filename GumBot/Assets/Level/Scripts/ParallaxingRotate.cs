@@ -33,7 +33,6 @@ public class ParallaxingRotate : MonoBehaviour {
 	// Update is called once per frame
 	void Parallax (float leftOrRight) 
 	{
-		print ("Parallaxing");
 
 		for (int i = 0; i < backgrounds.Length; i++) 
 		{

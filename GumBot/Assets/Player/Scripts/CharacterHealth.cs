@@ -2,7 +2,10 @@
 // Description: Health script for all characters (This includes enemies and destructable objects)
 
 using UnityEngine;
+using UnityEngine.UI;
 using System.Collections;
+//temp audio
+using FMODUnity;
 
 // Character Health
 // Base class for all character health
@@ -14,7 +17,11 @@ public class CharacterHealth : MonoBehaviour {
 	public float maxHealth = 5;
 	public float minHealth = 0;
 	public float possibleMaxHealth = 10;
-	
+	//temp audio
+	public StudioEventEmitter hurtSound;
+
+	private Image healthBar;
+
 	public bool invincible;
 
 	// Change this to the desired time
@@ -25,6 +32,8 @@ public class CharacterHealth : MonoBehaviour {
 
 		// Set health to maxHealth when spawned
 		health = maxHealth;
+
+		healthBar = transform.FindChild("EnemyCanvas").FindChild("HealthBG").FindChild("Health").GetComponent<Image>();
 
 	}
 
@@ -52,6 +61,10 @@ public class CharacterHealth : MonoBehaviour {
 		health += healthToAdd;
 		if (health > maxHealth)
 			health = maxHealth;
+
+		if(healthBar != null)
+			healthBar.fillAmount = (health / maxHealth);
+
 	}
 	
 	// Purpose: Call this to remove health from character
@@ -63,11 +76,19 @@ public class CharacterHealth : MonoBehaviour {
 	public void removeHealth (float healthToRemove)
 	{
 		// Damage the character if he is not invincible
-		if(!invincible)
+		if (!invincible)
+		{
 			health -= healthToRemove;
+			//temp audio
+			//may cause errors in enemies without emitters and fmod events
+			hurtSound.Play ();
+		}
 		// If the damage is higher than the remaining life, set life equal to 0
 		if (health < healthToRemove)
 			health = minHealth;
+
+		if(healthBar != null)
+			healthBar.fillAmount = (health / maxHealth);
 	}
 
 	// Purpose: Call this if you want the characters maxHealth to increase
@@ -83,6 +104,9 @@ public class CharacterHealth : MonoBehaviour {
 			maxHealth += maxHealthToAdd;
 			health = maxHealth;
 		}
+
+		if(healthBar != null)
+			healthBar.fillAmount = (health / maxHealth);
 	}
 
 	// Purpose: Call this if you want the characters maxHealth to decrease
@@ -99,6 +123,9 @@ public class CharacterHealth : MonoBehaviour {
 
 		if (maxHealth < minHealth)
 			maxHealth = minHealth + 1;
+
+		if(healthBar != null)
+			healthBar.fillAmount = (health / maxHealth);
 	}
 
 	// Purpose: Set the character to false (this will not destroy the actual object, just make him inactive

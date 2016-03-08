@@ -108,6 +108,7 @@ MonoBehaviour:
   Xpos: 0
   Ypos: 0
   radius: 0
+  startedCO: 0
   damage: 2
   shootingRight: 0
 --- !u!1001 &100100000

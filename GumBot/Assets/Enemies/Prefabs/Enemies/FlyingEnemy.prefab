@@ -16,6 +16,7 @@ GameObject:
   - 114: {fileID: 11446118}
   - 114: {fileID: 11422428}
   - 114: {fileID: 11412854}
+  - 114: {fileID: 11492610}
   m_Layer: 12
   m_Name: FlyingEnemy
   m_TagString: Enemy
@@ -123,6 +124,7 @@ MonoBehaviour:
   maxHealth: 2
   minHealth: 0
   possibleMaxHealth: 10
+  hurtSound: {fileID: 11492610}
   invincible: 0
   invincibilityTime: 2
 --- !u!114 &11425976
@@ -155,13 +157,39 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   attractor: {fileID: 0}
+--- !u!114 &11492610
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 175486}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Event: event:/debug/Silence
+  PlayEvent: 0
+  StopEvent: 0
+  CollisionTag: 
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Params: []
 --- !u!1001 &100100000
 Prefab:
   m_ObjectHideFlags: 1
   serializedVersion: 2
   m_Modification:
     m_TransformParent: {fileID: 0}
-    m_Modifications: []
+    m_Modifications:
+    - target: {fileID: 0}
+      propertyPath: Event
+      value: event:/debug/Silence
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: hurtSound
+      value: 
+      objectReference: {fileID: 11492610}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 0}
   m_RootGameObject: {fileID: 175486}
