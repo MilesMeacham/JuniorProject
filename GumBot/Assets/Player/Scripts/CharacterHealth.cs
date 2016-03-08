@@ -2,6 +2,7 @@
 // Description: Health script for all characters (This includes enemies and destructable objects)
 
 using UnityEngine;
+using UnityEngine.UI;
 using System.Collections;
 //temp audio
 using FMODUnity;
@@ -19,6 +20,8 @@ public class CharacterHealth : MonoBehaviour {
 	//temp audio
 	public StudioEventEmitter hurtSound;
 
+	private Image healthBar;
+
 	public bool invincible;
 
 	// Change this to the desired time
@@ -29,6 +32,8 @@ public class CharacterHealth : MonoBehaviour {
 
 		// Set health to maxHealth when spawned
 		health = maxHealth;
+
+		healthBar = transform.FindChild("EnemyCanvas").FindChild("HealthBG").FindChild("Health").GetComponent<Image>();
 
 	}
 
@@ -56,6 +61,10 @@ public class CharacterHealth : MonoBehaviour {
 		health += healthToAdd;
 		if (health > maxHealth)
 			health = maxHealth;
+
+		if(healthBar != null)
+			healthBar.fillAmount = (health / maxHealth);
+
 	}
 	
 	// Purpose: Call this to remove health from character
@@ -77,6 +86,9 @@ public class CharacterHealth : MonoBehaviour {
 		// If the damage is higher than the remaining life, set life equal to 0
 		if (health < healthToRemove)
 			health = minHealth;
+
+		if(healthBar != null)
+			healthBar.fillAmount = (health / maxHealth);
 	}
 
 	// Purpose: Call this if you want the characters maxHealth to increase
@@ -92,6 +104,9 @@ public class CharacterHealth : MonoBehaviour {
 			maxHealth += maxHealthToAdd;
 			health = maxHealth;
 		}
+
+		if(healthBar != null)
+			healthBar.fillAmount = (health / maxHealth);
 	}
 
 	// Purpose: Call this if you want the characters maxHealth to decrease
@@ -108,6 +123,9 @@ public class CharacterHealth : MonoBehaviour {
 
 		if (maxHealth < minHealth)
 			maxHealth = minHealth + 1;
+
+		if(healthBar != null)
+			healthBar.fillAmount = (health / maxHealth);
 	}
 
 	// Purpose: Set the character to false (this will not destroy the actual object, just make him inactive
