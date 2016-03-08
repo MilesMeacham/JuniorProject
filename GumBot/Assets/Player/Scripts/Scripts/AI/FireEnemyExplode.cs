@@ -9,10 +9,10 @@ public class FireEnemyExplode : MonoBehaviour {
     public Transform explosionPoint;
     public float countdown = 3f;
     public float explodeStart = 5;
-    public float damage = 1;
+    public float damage = 2;
  
     public bool reloading;
-    public string bulletTag;
+
 
     void Start()
     {

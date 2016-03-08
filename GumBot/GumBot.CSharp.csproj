@@ -51,15 +51,14 @@
     <Reference Include="UnityEngine">
       <HintPath>Library\UnityAssemblies\UnityEngine.dll</HintPath>
     </Reference>
-    <Reference Include="UnityEngine.Advertisements">
-      <HintPath>Library\UnityAssemblies\UnityEngine.Advertisements.dll</HintPath>
-    </Reference>
     <Reference Include="UnityEngine.UI">
       <HintPath>Library\UnityAssemblies\UnityEngine.UI.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.Networking">
       <HintPath>Library\UnityAssemblies\UnityEngine.Networking.dll</HintPath>
     </Reference>
+<<<<<<< HEAD
+=======
     <Reference Include="UnityEngine.Analytics">
       <HintPath>Library\UnityAssemblies\UnityEngine.Analytics.dll</HintPath>
     </Reference>
@@ -75,6 +74,7 @@
     <Reference Include="UnityEngine.UI">
       <HintPath>Library\UnityAssemblies\UnityEngine.UI.dll</HintPath>
     </Reference>
+>>>>>>> 1a742b80be72330db108ce6fd6484fe39938cbe8
     <Reference Include="UnityEditor">
       <HintPath>Library\UnityAssemblies\UnityEditor.dll</HintPath>
     </Reference>
@@ -109,6 +109,7 @@
     <Compile Include="Assets\Level\Scripts\Hazards\MasherTrigger.cs" />
     <Compile Include="Assets\Level\Scripts\Hazards\PitHazard.cs" />
     <Compile Include="Assets\Level\Scripts\Hazards\SpikeHazard.cs" />
+    <Compile Include="Assets\Level\Scripts\Level\CompleteLevel.cs" />
     <Compile Include="Assets\Level\Scripts\Level\MoverScript.cs" />
     <Compile Include="Assets\Level\Scripts\Level\RotateLeft.cs" />
     <Compile Include="Assets\Level\Scripts\Level\RotateRight.cs" />
@@ -120,12 +121,17 @@
     <Compile Include="Assets\Player\Scripts\CharacterAutoCrouch\CharacterAutoCrouch.cs" />
     <Compile Include="Assets\Player\Scripts\CharacterAutoCrouch\CharacterAutoCrouchBottom.cs" />
     <Compile Include="Assets\Player\Scripts\CharacterAutoCrouch\CharacterAutoCrouchTop.cs" />
+    <Compile Include="Assets\Player\Scripts\CharacterDrill.cs" />
     <Compile Include="Assets\Player\Scripts\CharacterHealth.cs" />
     <Compile Include="Assets\Player\Scripts\CharacterJump.cs" />
     <Compile Include="Assets\Player\Scripts\CharacterJump2.cs" />
     <Compile Include="Assets\Player\Scripts\CharacterMotor.cs" />
     <Compile Include="Assets\Player\Scripts\CharacterMotor2.cs" />
     <Compile Include="Assets\Player\Scripts\CharacterShot.cs" />
+    <Compile Include="Assets\Player\Scripts\ChestUpgrades.cs" />
+    <Compile Include="Assets\Player\Scripts\DamageFlash.cs" />
+    <Compile Include="Assets\Player\Scripts\DrillUpgrades.cs" />
+    <Compile Include="Assets\Player\Scripts\ExplodeDamage.cs" />
     <Compile Include="Assets\Player\Scripts\GroundCheck.cs" />
     <Compile Include="Assets\Player\Scripts\JumpThroughPlatforms.cs" />
     <Compile Include="Assets\Player\Scripts\KeyboardControls.cs" />
@@ -148,6 +154,7 @@
     <Compile Include="Assets\Player\Scripts\Scripts\AI\turret.cs" />
     <Compile Include="Assets\Player\Scripts\TakeDamage.cs" />
     <Compile Include="Assets\Player\Scripts\TouchInputsTemp.cs" />
+    <Compile Include="Assets\Player\Scripts\UpgradeScripts.cs" />
     <Compile Include="Assets\Player\Scripts\bulletMovement.cs" />
     <Compile Include="Assets\Player\Scripts\touchControls.cs" />
     <Compile Include="Assets\instantiate.cs" />
