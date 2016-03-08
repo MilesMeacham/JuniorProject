@@ -15,9 +15,15 @@ public class CharacterShot : MonoBehaviour {
 	public float damage = 1;
 	public float reloadTime = 0.5f;
 	public bool reloading;
+    public DrillUpgrades DrillUPG;
 
 	// This should either be EnemyBullet or PlayerBullet. Set it to that in the editor
 	public string bulletTag;
+
+
+    void Start(){
+        DrillUPG = GetComponent<DrillUpgrades>();
+    }
 
     public void shot()
     {

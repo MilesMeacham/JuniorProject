@@ -13,6 +13,8 @@ public class TakeDamage : MonoBehaviour {
 
 	private CharacterHealth theCharacterHealth;
 
+    public ChestUpgrades ChestUPG;
+
 	private Vector3 HazardKnockback;
 
 	public float LavaKnockback = 10.0f;
@@ -47,8 +49,15 @@ public class TakeDamage : MonoBehaviour {
 		// if character is not immune to player damage, he will detect these
 		if (!immuneToPlayerDamage) 
 		{
-		
-		}
+            {
+                // Touching player hurts you
+                if (collider.gameObject.tag == "Player" && ChestUPG.SpikeArmor == true)
+                {
+                    theCharacterHealth.removeHealth(1f);
+                    theCharacterHealth.Invincibility();
+                }
+            }
+        }
 		
 		// if character is not immune to hazard damage, he will detect these
 		if (!immuneToHazardDamage) 
@@ -58,6 +67,7 @@ public class TakeDamage : MonoBehaviour {
 				theCharacterHealth.removeHealth (1f);
 				theCharacterHealth.Invincibility ();
 			}
+
 
 			if (collider.gameObject.tag == "Lava")
 			{

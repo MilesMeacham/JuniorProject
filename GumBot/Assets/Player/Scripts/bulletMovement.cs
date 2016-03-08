@@ -17,9 +17,7 @@ public class bulletMovement : MonoBehaviour
     public float Xpos;
     public float Ypos;
     public float radius;
-
 	public float damage = 1;
-
 	public bool shootingRight;
 
 

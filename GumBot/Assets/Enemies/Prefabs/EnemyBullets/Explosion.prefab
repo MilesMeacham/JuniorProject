@@ -15,9 +15,10 @@ GameObject:
   - 114: {fileID: 11457688}
   - 54: {fileID: 5493250}
   - 114: {fileID: 11471928}
+  - 114: {fileID: 11406526}
   m_Layer: 0
   m_Name: Explosion
-  m_TagString: Enemy
+  m_TagString: Explosion
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -80,6 +81,17 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!114 &11406526
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 176736}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f07226fd7794537409c5482d0c76ec01, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!114 &11445204
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -91,10 +103,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f07226fd7794537409c5482d0c76ec01, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  timer: .5
-  damage: 1
-  theCharacterMotor: {fileID: 0}
-  takeDamage: {fileID: 0}
 --- !u!114 &11457688
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -155,7 +163,7 @@ Prefab:
     m_Modifications:
     - target: {fileID: 0}
       propertyPath: m_TagString
-      value: Enemy
+      value: Explosion
       objectReference: {fileID: 0}
     - target: {fileID: 0}
       propertyPath: timer

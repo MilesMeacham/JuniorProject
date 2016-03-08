@@ -4,6 +4,7 @@ using System.Collections;
 public class IceFreeze : MonoBehaviour {
     public CharacterMotor2 Motor;
     public float frozenTime = 1;
+    public UpgradeScripts Upgrades;
     
     // Use this for initialization
     void Start () {
@@ -25,16 +26,28 @@ public class IceFreeze : MonoBehaviour {
     IEnumerator freeze() {
         Motor.speed = 0;
         yield return new WaitForSeconds(frozenTime);
-<<<<<<< HEAD
-        if (Motor.facingRight == true) {
+
+        if (Motor.facingRight == true && Upgrades.SpeedBoots == false) {
             Motor.speed = 5;
         }
+
         else
-        if (Motor.facingRight == false) {
+        if (Motor.facingRight == false && Upgrades.SpeedBoots == false) {
             Motor.speed = -5;
         }
-=======
-        Motor.speed = 5;
->>>>>>> 1a4bd6b1d9e9cc9836dcb24f130c5a4f46ab88d8
+
+        else
+        if (Motor.facingRight == true && Upgrades.SpeedBoots == true)
+        {
+            Motor.speed = 10;
+        }
+
+        else
+        if (Motor.facingRight == false && Upgrades.SpeedBoots == true)
+        {
+            Motor.speed = -10;
+        }
+
+
     }
 }

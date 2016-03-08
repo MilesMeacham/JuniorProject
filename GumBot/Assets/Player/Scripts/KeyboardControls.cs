@@ -6,6 +6,7 @@ public class KeyboardControls : MonoBehaviour {
 	private CharacterMotor2 theCharacterMotor;
 	private CharacterJump2 theCharacterJump;
 	private CharacterShot theCharacterShot;
+    private CharacterDrill theCharacterDrill;
 	
 	// Use this for initialization
 	void Start () 
@@ -13,7 +14,8 @@ public class KeyboardControls : MonoBehaviour {
 		theCharacterMotor = gameObject.GetComponent<CharacterMotor2> ();
 		theCharacterJump = gameObject.GetComponent<CharacterJump2> ();
 		theCharacterShot = gameObject.GetComponent<CharacterShot> ();
-	}
+        theCharacterDrill = gameObject.GetComponent<CharacterDrill> ();
+    }
 	
 	void Update ()
 	{
@@ -42,7 +44,7 @@ public class KeyboardControls : MonoBehaviour {
 		
 		if(Input.GetKeyDown(KeyCode.F))
 		{
-			theCharacterShot.shot ();
+            theCharacterDrill.shot();
 		}
 
 	}
