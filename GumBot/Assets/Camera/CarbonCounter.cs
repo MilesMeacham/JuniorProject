@@ -8,26 +8,25 @@ public class CarbonCounter : MonoBehaviour {
     public static int silicatotal = 0;
     // Use this for initialization
     void Start () {
-	
+      
+            irontotal = 0;
+        
 	}
 	
 	// Update is called once per frame
 	void Update () {
-	
-	}
+        if (irontotal >= 6)
+        {
+            Application.LoadLevel("SuccessScreen");
+        }
+    }
     void OnGUI()
     {
+     
         {
-            string carbontext = "Carbon Count: " + carbontotal;
-            GUI.Box(new Rect(Screen.width - 150, 20, 130, 20), carbontext);
-        }
-        {
-            string irontext = "Iron Count: " + irontotal;
+            string irontext = "Mineral Count: " + irontotal;
             GUI.Box(new Rect(Screen.width - 150, 45, 130, 20), irontext);
         }
-        {
-            string silicatext = "Silica Count: " + silicatotal;
-            GUI.Box(new Rect(Screen.width - 150, 70, 130, 20), silicatext);
-        }
+        
     }
 }

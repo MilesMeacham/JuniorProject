@@ -1,6 +1,6 @@
 fileFormatVersion: 2
-guid: 4af6f150591f1af478d4c2994031b205
-timeCreated: 1455920544
+guid: 422b8c94613574f4ba644cc29fc00dd9
+timeCreated: 1457128302
 licenseType: Free
 ModelImporter:
   serializedVersion: 18
@@ -25,11 +25,14 @@ ModelImporter:
     100034: Cloud7
     100036: Cloud8
     100038: Cloud9
-    100040: Islands14
-    100042: Islands15
-    100044: Islands21
-    100046: Islands22
-    100048: //RootNode
+    100040: clouds_group
+    100042: Islands14
+    100044: Islands15
+    100046: Islands21
+    100048: Islands22
+    100050: islands_group
+    100052: //RootNode
+    100054: Waterfall_Collider
     400000: Cloud1
     400002: Cloud10
     400004: Cloud11
@@ -50,11 +53,14 @@ ModelImporter:
     400034: Cloud7
     400036: Cloud8
     400038: Cloud9
-    400040: Islands14
-    400042: Islands15
-    400044: Islands21
-    400046: Islands22
-    400048: //RootNode
+    400040: clouds_group
+    400042: Islands14
+    400044: Islands15
+    400046: Islands21
+    400048: Islands22
+    400050: islands_group
+    400052: //RootNode
+    400054: Waterfall_Collider
     2300000: Cloud1
     2300002: Cloud10
     2300004: Cloud11
@@ -79,6 +85,7 @@ ModelImporter:
     2300042: Islands15
     2300044: Islands21
     2300046: Islands22
+    2300048: Waterfall_Collider
     3300000: Cloud1
     3300002: Cloud10
     3300004: Cloud11
@@ -103,6 +110,7 @@ ModelImporter:
     3300042: Islands15
     3300044: Islands21
     3300046: Islands22
+    3300048: Waterfall_Collider
     4300000: Islands14
     4300002: Islands15
     4300004: Islands21
@@ -127,6 +135,7 @@ ModelImporter:
     4300042: Cloud20
     4300044: Cloud23
     4300046: Cloud24
+    4300048: Waterfall_Collider
     9500000: //RootNode
   materials:
     importMaterials: 1

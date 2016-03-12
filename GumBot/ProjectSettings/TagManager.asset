@@ -19,6 +19,12 @@ TagManager:
   - Spikes
   - Pit
   - IceShot
+  - SpeedBootsUPG
+  - RocketPackUPG
+  - HazBootUPG
+  - PowerDrillUPG
+  - SuperArmorUPG
+  - Explosion
   layers:
   - Default
   - TransparentFX

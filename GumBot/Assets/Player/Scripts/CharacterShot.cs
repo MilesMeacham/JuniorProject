@@ -23,6 +23,7 @@ public class CharacterShot : MonoBehaviour {
 	public float damage = 1;
 	public float reloadTime = 0.5f;
 	public bool reloading;
+    public DrillUpgrades DrillUPG;
 
 	//temp audio
 	public StudioEventEmitter shotSound;
@@ -30,13 +31,15 @@ public class CharacterShot : MonoBehaviour {
 
 	// This should either be EnemyBullet or PlayerBullet. Set it to that in the editor
 	public string bulletTag;
-
+	
 	private ObjectPooler bulletPooler;
 
 	void Start()
 	{
+		DrillUPG = GetComponent<DrillUpgrades>();
 		bulletPools = GameObject.Find (poolName).GetComponent<ObjectPooler> ();
 	}
+
 
     public void shot()
     {

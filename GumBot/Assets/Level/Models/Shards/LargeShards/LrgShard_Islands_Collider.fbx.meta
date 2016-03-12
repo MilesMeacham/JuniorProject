@@ -1,6 +1,6 @@
 fileFormatVersion: 2
-guid: 30a9981977de3402d874822b907e619d
-timeCreated: 1454612781
+guid: dc01d0840830250428ba646f14b2fec6
+timeCreated: 1457125642
 licenseType: Free
 ModelImporter:
   serializedVersion: 18
@@ -32,17 +32,20 @@ ModelImporter:
     100048: cloud7
     100050: cloud8
     100052: cloud9
-    100054: //RootNode
-    100056: skyIsland22
-    100058: skyIsland23
-    100060: skyIsland26
-    100062: skyIsland29
-    100064: skyIslandDebris16
-    100066: skyIslandDebris18
-    100068: skyIslandDebris19
-    100070: skyIslandDebris21
-    100072: skyIslandDebris24
-    100074: skyIslandDebris25
+    100054: Clouds_Group
+    100056: IslandDebris_Group
+    100058: Islands_Group
+    100060: //RootNode
+    100062: skyIsland22
+    100064: skyIsland23
+    100066: skyIsland26
+    100068: skyIsland29
+    100070: skyIslandDebris16
+    100072: skyIslandDebris18
+    100074: skyIslandDebris19
+    100076: skyIslandDebris21
+    100078: skyIslandDebris24
+    100080: skyIslandDebris25
     400000: cloud1
     400002: cloud10
     400004: cloud11
@@ -70,17 +73,20 @@ ModelImporter:
     400048: cloud7
     400050: cloud8
     400052: cloud9
-    400054: //RootNode
-    400056: skyIsland22
-    400058: skyIsland23
-    400060: skyIsland26
-    400062: skyIsland29
-    400064: skyIslandDebris16
-    400066: skyIslandDebris18
-    400068: skyIslandDebris19
-    400070: skyIslandDebris21
-    400072: skyIslandDebris24
-    400074: skyIslandDebris25
+    400054: Clouds_Group
+    400056: IslandDebris_Group
+    400058: Islands_Group
+    400060: //RootNode
+    400062: skyIsland22
+    400064: skyIsland23
+    400066: skyIsland26
+    400068: skyIsland29
+    400070: skyIslandDebris16
+    400072: skyIslandDebris18
+    400074: skyIslandDebris19
+    400076: skyIslandDebris21
+    400078: skyIslandDebris24
+    400080: skyIslandDebris25
     2300000: cloud1
     2300002: cloud10
     2300004: cloud11
@@ -170,28 +176,28 @@ ModelImporter:
     4300024: cloud13
     4300026: cloud14
     4300028: cloud15
-    4300030: skyIslandDebris16
-    4300032: cloud17
-    4300034: skyIslandDebris18
-    4300036: skyIslandDebris19
-    4300038: cloud20
-    4300040: skyIslandDebris21
-    4300042: skyIsland22
-    4300044: skyIsland23
-    4300046: skyIslandDebris24
-    4300048: skyIslandDebris25
-    4300050: skyIsland26
-    4300052: cloud27
-    4300054: cloud28
-    4300056: skyIsland29
-    4300058: cloud30
-    4300060: cloud31
-    4300062: cloud32
-    4300064: cloud33
-    4300066: cloud34
-    4300068: cloud35
-    4300070: cloud36
-    4300072: cloud37
+    4300030: cloud17
+    4300032: cloud20
+    4300034: cloud27
+    4300036: cloud28
+    4300038: cloud30
+    4300040: cloud37
+    4300042: cloud36
+    4300044: cloud35
+    4300046: cloud34
+    4300048: cloud33
+    4300050: cloud32
+    4300052: cloud31
+    4300054: skyIsland29
+    4300056: skyIsland26
+    4300058: skyIsland23
+    4300060: skyIsland22
+    4300062: skyIslandDebris25
+    4300064: skyIslandDebris24
+    4300066: skyIslandDebris21
+    4300068: skyIslandDebris19
+    4300070: skyIslandDebris18
+    4300072: skyIslandDebris16
     9500000: //RootNode
   materials:
     importMaterials: 1
