@@ -1,19 +1,15 @@
 fileFormatVersion: 2
-guid: 014a5495eb3efcc40a7dcebed367b63c
-timeCreated: 1453148993
+guid: 5a34ac1bff705224ca4337576ac962ca
+timeCreated: 1457546938
 licenseType: Free
 ModelImporter:
   serializedVersion: 18
   fileIDToRecycleName:
-    100000: back
-    100002: //RootNode
-    100004: CrystalShort1
-    400000: back
-    400002: //RootNode
-    400004: CrystalShort1
-    2300000: CrystalShort1
-    3300000: CrystalShort1
-    4300000: CrystalShort1
+    100000: //RootNode
+    400000: //RootNode
+    2300000: //RootNode
+    3300000: //RootNode
+    4300000: CrystalShort
     9500000: //RootNode
   materials:
     importMaterials: 1

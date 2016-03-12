@@ -15,7 +15,7 @@ GameObject:
   - 54: {fileID: 5420450}
   m_Layer: 0
   m_Name: bullet
-  m_TagString: EnemyBullet
+  m_TagString: PlayerBullet
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -96,6 +96,7 @@ MonoBehaviour:
   Xpos: 0
   Ypos: 0
   radius: 0
+  startedCO: 0
   damage: 1
   shootingRight: 0
 --- !u!135 &13519932

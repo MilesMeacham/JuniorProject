@@ -11,7 +11,7 @@ GameObject:
   - 33: {fileID: 3324840}
   - 23: {fileID: 2305082}
   - 64: {fileID: 6481586}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Cloud14
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -29,7 +29,7 @@ GameObject:
   - 33: {fileID: 3385160}
   - 23: {fileID: 2300552}
   - 64: {fileID: 6468904}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Cloud27
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -47,7 +47,7 @@ GameObject:
   - 33: {fileID: 3382624}
   - 23: {fileID: 2347692}
   - 64: {fileID: 6427670}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Cloud8
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -65,7 +65,7 @@ GameObject:
   - 33: {fileID: 3382404}
   - 23: {fileID: 2354336}
   - 64: {fileID: 6478426}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Cloud_Secondary
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -83,7 +83,7 @@ GameObject:
   - 33: {fileID: 3360232}
   - 23: {fileID: 2396604}
   - 64: {fileID: 6405442}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Cloud25
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -101,7 +101,7 @@ GameObject:
   - 33: {fileID: 3382166}
   - 23: {fileID: 2392258}
   - 64: {fileID: 6439044}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Cloud32
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -119,7 +119,7 @@ GameObject:
   - 33: {fileID: 3343310}
   - 23: {fileID: 2361418}
   - 64: {fileID: 6425988}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Cloud5
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -137,7 +137,7 @@ GameObject:
   - 33: {fileID: 3341168}
   - 23: {fileID: 2369592}
   - 64: {fileID: 6438286}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Cloud6
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -155,7 +155,7 @@ GameObject:
   - 33: {fileID: 3366632}
   - 23: {fileID: 2384844}
   - 64: {fileID: 6461384}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Cloud22
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -173,7 +173,7 @@ GameObject:
   - 33: {fileID: 3316412}
   - 23: {fileID: 2309348}
   - 64: {fileID: 6409328}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Cloud3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -206,7 +206,7 @@ GameObject:
   - 33: {fileID: 3356458}
   - 23: {fileID: 2321234}
   - 64: {fileID: 6468666}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Cloud18
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -224,7 +224,7 @@ GameObject:
   - 33: {fileID: 3301716}
   - 23: {fileID: 2347204}
   - 64: {fileID: 6474170}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Cloud13
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -242,7 +242,7 @@ GameObject:
   - 33: {fileID: 3383606}
   - 23: {fileID: 2337670}
   - 64: {fileID: 6402542}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Cloud17
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -260,7 +260,7 @@ GameObject:
   - 33: {fileID: 3320308}
   - 23: {fileID: 2302168}
   - 64: {fileID: 6405440}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Cloud11
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -278,7 +278,7 @@ GameObject:
   - 33: {fileID: 3327632}
   - 23: {fileID: 2330360}
   - 64: {fileID: 6496718}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Cloud10
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -296,7 +296,7 @@ GameObject:
   - 33: {fileID: 3355462}
   - 23: {fileID: 2312200}
   - 64: {fileID: 6473234}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Cloud28
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -314,7 +314,7 @@ GameObject:
   - 33: {fileID: 3370030}
   - 23: {fileID: 2316098}
   - 64: {fileID: 6414074}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Cloud19
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -332,7 +332,7 @@ GameObject:
   - 33: {fileID: 3309622}
   - 23: {fileID: 2334712}
   - 64: {fileID: 6410834}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Cloud7
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -350,7 +350,7 @@ GameObject:
   - 33: {fileID: 3328508}
   - 23: {fileID: 2354104}
   - 64: {fileID: 6437322}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Cloud15
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -368,7 +368,7 @@ GameObject:
   - 33: {fileID: 3392344}
   - 23: {fileID: 2343976}
   - 64: {fileID: 6488204}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Cloud12
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -386,7 +386,7 @@ GameObject:
   - 33: {fileID: 3350822}
   - 23: {fileID: 2304416}
   - 64: {fileID: 6403916}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Cloud24
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -404,7 +404,7 @@ GameObject:
   - 33: {fileID: 3392752}
   - 23: {fileID: 2374292}
   - 64: {fileID: 6411458}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Cloud29
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -422,7 +422,7 @@ GameObject:
   - 33: {fileID: 3384412}
   - 23: {fileID: 2382524}
   - 64: {fileID: 6449810}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Cloud30
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -440,7 +440,7 @@ GameObject:
   - 33: {fileID: 3390136}
   - 23: {fileID: 2327228}
   - 64: {fileID: 6400698}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Cloud_Primary
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -458,7 +458,7 @@ GameObject:
   - 33: {fileID: 3355688}
   - 23: {fileID: 2343900}
   - 64: {fileID: 6459906}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Cloud16
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -476,7 +476,7 @@ GameObject:
   - 33: {fileID: 3354070}
   - 23: {fileID: 2342582}
   - 64: {fileID: 6412634}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Cloud4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -510,7 +510,7 @@ GameObject:
   - 33: {fileID: 3342234}
   - 23: {fileID: 2342370}
   - 64: {fileID: 6450852}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Cloud31
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -528,7 +528,7 @@ GameObject:
   - 33: {fileID: 3353012}
   - 23: {fileID: 2390884}
   - 64: {fileID: 6479290}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Cloud9
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -546,7 +546,7 @@ GameObject:
   - 33: {fileID: 3319058}
   - 23: {fileID: 2385436}
   - 64: {fileID: 6493986}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Cloud20
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -579,7 +579,7 @@ GameObject:
   - 33: {fileID: 3393216}
   - 23: {fileID: 2320092}
   - 64: {fileID: 6496892}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Cloud2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -597,7 +597,7 @@ GameObject:
   - 33: {fileID: 3357760}
   - 23: {fileID: 2389184}
   - 64: {fileID: 6406578}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Cloud23
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -630,7 +630,7 @@ GameObject:
   - 33: {fileID: 3349256}
   - 23: {fileID: 2385408}
   - 64: {fileID: 6450704}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Cloud1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
