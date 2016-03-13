@@ -66,7 +66,21 @@ public class planetGeneration : MonoBehaviour {
 
 		int planetSize = 1;
 
-		// Start Generating Worlds
+		// Create an empty game object to parent all the shards to
+		GameObject planet = new GameObject();
+
+		// Assign the proper components to the planet
+		planet.AddComponent<Attractor> ();
+		
+		// Name this one according to the PLANET_NAME variable *It should only happen once
+		planet.name = PLANET_NAME;
+
+		// Place the planet origin
+		planet.transform.position = new Vector3 (0 , 0, 0);
+		//planet.transform.Rotate (0, 180, 0);                 // Use this if it is generating the Planet backwards
+
+
+		// Start Generating Rings
 		for(int i = 0; i < ringAmount; i++)
 		{
 
@@ -106,37 +120,28 @@ public class planetGeneration : MonoBehaviour {
 			rotationDegree = 360/sectionsPerWorld;
 			
 			// Create an empty game object to parent all the shards to
-			GameObject planet = new GameObject();
+			GameObject ring = new GameObject();
 
 			
-			// Place the planet origin
-			planet.transform.position = new Vector3 (0 , 0, 0);
-			
+			// Place the ring origin
+			ring.transform.position = new Vector3 (0 , 0, 0);
 
 			
-			// Name the first planet "Planet" and the rest "Moon"
-			// If it is a "Moon", parent it to the "Planet"
-			if(i != 0){
-				GameObject mainPlanet = GameObject.Find (PLANET_NAME);
-				
-				planet.name = "Ring" + i;
-				
-				planet.transform.parent = mainPlanet.transform;
-			} else {
 
-				// Assign the proper components to the planet
-				planet.AddComponent<Attractor> ();
-
-				// Name this one according to the PLANET_NAME variable *It should only happen once
-				planet.name = PLANET_NAME;
-
-			}
+			
+			// Name the first ring "ring" and the rest "Moon"
+			// If it is a "Moon", parent it to the "ring"
+			GameObject mainPlanet = GameObject.Find (PLANET_NAME);
+			
+			ring.name = "Ring" + i;
+			
+			ring.transform.parent = mainPlanet.transform;
 
 			// Add left or right rotates to each ring
 			if(i % 2 == 1)
-				planet.AddComponent<RotateLeft>();
+				ring.AddComponent<RotateLeft>();
 			else
-				planet.AddComponent<RotateRight>();
+				ring.AddComponent<RotateRight>();
 			
 			// Randomly choose shards from the list of shards
 			for(int n = 0; n < sectionsPerWorld; n++){
@@ -145,10 +150,10 @@ public class planetGeneration : MonoBehaviour {
 				//GameObject value = sections[rand];
 				
 				// Place shard
-				GameObject obj = Instantiate (sections[rand], new Vector3(planet.transform.position.x, planet.transform.position.y, (planet.transform.position.z - 1)), Quaternion.Euler(planet.transform.rotation.x, planet.transform.rotation.y, planet.transform.rotation.z + rotationValue)) as GameObject;
+				GameObject obj = Instantiate (sections[rand], new Vector3(ring.transform.position.x, ring.transform.position.y, (ring.transform.position.z - 1)), Quaternion.Euler(ring.transform.rotation.x, ring.transform.rotation.y, ring.transform.rotation.z + rotationValue)) as GameObject;
 				
-				// Parent to Planet or Moon respectivly
-				obj.transform.parent = planet.transform;
+				// Parent to ring or Moon respectivly
+				obj.transform.parent = ring.transform;
 				
 				// Add MeshCollider (This could be done in the prefab) If so, remove this code
 				obj.AddComponent<MeshCollider> ();

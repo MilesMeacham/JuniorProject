@@ -38,15 +38,15 @@
 [LOG] Thread::initThread                       : Initializing FMOD nonblocking thread (0).  priority 1
 [LOG] Thread::initThread                       : - Stacksize 81920.  Stack pointer 0000000000000000 : usesemaphore = 1 : sleeptime = 0
 [LOG] Thread::callback                         : * FMOD nonblocking thread (0) started
-[LOG] SystemI::createSound                     : setdata soundi = 0000000013ABA738 : node = 000000000FFA6520
-[LOG] SystemI::createSound                     : add node to async list : head = 000000000FFB1790.  list count = 0
-[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 0000000013ABA738
+[LOG] SystemI::createSound                     : setdata soundi = 0000000028367C18 : node = 0000000028367DC0
+[LOG] SystemI::createSound                     : add node to async list : head = 0000000028368060.  list count = 0
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 0000000028367C18
 [LOG] SystemI::createSoundInternal             :     filename = Z:\School\2016 Spring\DysonSphere\Audio\Build\Desktop/Character.bank : mode 0a010202
 [LOG] SystemI::createSoundInternal             :     exinfo->cbsize             = 216
 [LOG] SystemI::createSoundInternal             :     exinfo->length             = 38464
 [LOG] SystemI::createSoundInternal             :     exinfo->fileoffset         = 9024
 [LOG] SystemI::createSoundInternal             :     exinfo->numsubsounds       = 1
-[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlist      = 000000000FFA6628
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlist      = 0000000028367EC8
 [LOG] SystemI::createSoundInternal             :     exinfo->inclusionlistnum   = 1
 [LOG] SystemI::createSoundInternal             :     exinfo->suggestedsoundtype = 5
 [LOG] SystemI::createSoundInternal             :     exinfo->initialseekpostype = 1
@@ -56,28 +56,28 @@
 [LOG] SystemI::createSoundInternal             :     creating subsound 0/1
 [LOG] SystemI::createSample                    :     mode 0a010202 length 58650 samples, lengthbytes 11936
 [LOG] SystemI::createSample                    :     channels = 2
-[LOG] SystemI::createSample                    :     output = 0000000013ABA418
+[LOG] SystemI::createSample                    :     output = 0000000028292A18
 [LOG] OutputSoftware::createSample             :     lengthpcm 58650, lengthbytes 11936, channels 2, format 2, freq 48000, mode 0a01020a
 [LOG] SystemI::createSoundInternal             :     done.  OpenState now = FMOD_OPENSTATE_READY.
 
-[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 0000000013ABA738
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 0000000028367C18
 [WRN] SoundSourceInstrumentInstance::startChannelIfReady : Loading delay exceeded, sound may play at incorrect time
-[LOG] SoundI::release                          : (null) (0000000013ABA738)
-[LOG] SoundI::release                          : release subsounds. (0000000013ABA738)
-[LOG] SoundI::release                          :     (null) (0000000013ABAF08)
-[LOG] SoundI::release                          : release codec. (0000000013ABA738)
+[LOG] SoundI::release                          : (null) (0000000028367C18)
+[LOG] SoundI::release                          : release subsounds. (0000000028367C18)
+[LOG] SoundI::release                          :     (null) (000000002837B4F8)
+[LOG] SoundI::release                          : release codec. (0000000028367C18)
 [LOG] SystemI::createSound                     : filename = Z:\School\2016 Spring\DysonSphere\Audio\Build\Desktop/Character.bank : mode 0a010202
 [LOG] SystemI::createSound                     : FMOD_NONBLOCKING specified.  Putting into queue to be opened asynchronously!
 [LOG] OutputSoftware::createSample             : lengthpcm 0, lengthbytes 0, channels 0, format 0, freq 0, mode 00000000
-[LOG] SystemI::createSound                     : setdata soundi = 0000000013ABA288 : node = 000000000FFA6020
-[LOG] SystemI::createSound                     : add node to async list : head = 000000000FFB1790.  list count = 0
-[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 0000000013ABA288
+[LOG] SystemI::createSound                     : setdata soundi = 000000002837E2E8 : node = 000000001E088A20
+[LOG] SystemI::createSound                     : add node to async list : head = 0000000028368060.  list count = 0
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 000000002837E2E8
 [LOG] SystemI::createSoundInternal             :     filename = Z:\School\2016 Spring\DysonSphere\Audio\Build\Desktop/Character.bank : mode 0a010202
 [LOG] SystemI::createSoundInternal             :     exinfo->cbsize             = 216
 [LOG] SystemI::createSoundInternal             :     exinfo->length             = 38464
 [LOG] SystemI::createSoundInternal             :     exinfo->fileoffset         = 9024
 [LOG] SystemI::createSoundInternal             :     exinfo->numsubsounds       = 1
-[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlist      = 000000000FFA6128
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlist      = 000000001E088B28
 [LOG] SystemI::createSoundInternal             :     exinfo->inclusionlistnum   = 1
 [LOG] SystemI::createSoundInternal             :     exinfo->suggestedsoundtype = 5
 [LOG] SystemI::createSoundInternal             :     exinfo->initialseekpostype = 1
@@ -87,55 +87,28 @@
 [LOG] SystemI::createSoundInternal             :     creating subsound 0/1
 [LOG] SystemI::createSample                    :     mode 0a010202 length 58650 samples, lengthbytes 11936
 [LOG] SystemI::createSample                    :     channels = 2
-[LOG] SystemI::createSample                    :     output = 0000000013ABA418
+[LOG] SystemI::createSample                    :     output = 0000000028292A18
 [LOG] OutputSoftware::createSample             :     lengthpcm 58650, lengthbytes 11936, channels 2, format 2, freq 48000, mode 0a01020a
 [LOG] SystemI::createSoundInternal             :     done.  OpenState now = FMOD_OPENSTATE_READY.
 
-[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 0000000013ABA288
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 000000002837E2E8
 [WRN] SoundSourceInstrumentInstance::startChannelIfReady : Loading delay exceeded, sound may play at incorrect time
-[LOG] SoundI::release                          : (null) (0000000013ABA288)
-[LOG] SoundI::release                          : release subsounds. (0000000013ABA288)
-[LOG] SoundI::release                          :     (null) (0000000013ABAF08)
-[LOG] SoundI::release                          : release codec. (0000000013ABA288)
+[LOG] SoundI::release                          : (null) (000000002837E2E8)
+[LOG] SoundI::release                          : release subsounds. (000000002837E2E8)
+[LOG] SoundI::release                          :     (null) (0000000028382958)
+[LOG] SoundI::release                          : release codec. (000000002837E2E8)
 [LOG] SystemI::createSound                     : filename = Z:\School\2016 Spring\DysonSphere\Audio\Build\Desktop/Character.bank : mode 0a010202
 [LOG] SystemI::createSound                     : FMOD_NONBLOCKING specified.  Putting into queue to be opened asynchronously!
 [LOG] OutputSoftware::createSample             : lengthpcm 0, lengthbytes 0, channels 0, format 0, freq 0, mode 00000000
-[LOG] SystemI::createSound                     : setdata soundi = 0000000013ABB098 : node = 000000000FFA5EE0
-[LOG] SystemI::createSound                     : add node to async list : head = 000000000FFB1790.  list count = 0
-[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 0000000013ABB098
+[LOG] SystemI::createSound                     : setdata soundi = 000000001E0889A8 : node = 000000002837E300
+[LOG] SystemI::createSound                     : add node to async list : head = 0000000028368060.  list count = 0
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 000000001E0889A8
 [LOG] SystemI::createSoundInternal             :     filename = Z:\School\2016 Spring\DysonSphere\Audio\Build\Desktop/Character.bank : mode 0a010202
 [LOG] SystemI::createSoundInternal             :     exinfo->cbsize             = 216
 [LOG] SystemI::createSoundInternal             :     exinfo->length             = 38464
 [LOG] SystemI::createSoundInternal             :     exinfo->fileoffset         = 9024
 [LOG] SystemI::createSoundInternal             :     exinfo->numsubsounds       = 1
-[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlist      = 000000000FFA5FE8
-[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlistnum   = 1
-[LOG] SystemI::createSoundInternal             :     exinfo->suggestedsoundtype = 5
-[LOG] SystemI::createSoundInternal             :     exinfo->initialseekpostype = 1
-[LOG] SystemI::createSoundInternal             :     Format has 1 subsounds.
-[LOG] SystemI::createSoundInternal             :     Create as FMOD_CREATESAMPLE
-[LOG] SystemI::createSoundInternal             :     Multi-sample sound (1 subsounds), create a sample container.
-[LOG] SystemI::createSoundInternal             :     creating subsound 0/1
-[LOG] SystemI::createSample                    :     mode 0a010202 length 48000 samples, lengthbytes 5632
-[LOG] SystemI::createSample                    :     channels = 2
-[LOG] SystemI::createSample                    :     output = 0000000013ABA418
-[LOG] OutputSoftware::createSample             :     lengthpcm 48000, lengthbytes 5632, channels 2, format 2, freq 48000, mode 0a01020a
-[LOG] SystemI::createSoundInternal             :     done.  OpenState now = FMOD_OPENSTATE_READY.
-
-[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 0000000013ABB098
-[WRN] SoundSourceInstrumentInstance::startChannelIfReady : Loading delay exceeded, sound may play at incorrect time
-[LOG] SystemI::createSound                     : filename = Z:\School\2016 Spring\DysonSphere\Audio\Build\Desktop/Character.bank : mode 0a010202
-[LOG] SystemI::createSound                     : FMOD_NONBLOCKING specified.  Putting into queue to be opened asynchronously!
-[LOG] OutputSoftware::createSample             : lengthpcm 0, lengthbytes 0, channels 0, format 0, freq 0, mode 00000000
-[LOG] SystemI::createSound                     : setdata soundi = 0000000013ABABE8 : node = 000000000FFA5260
-[LOG] SystemI::createSound                     : add node to async list : head = 000000000FFB1790.  list count = 0
-[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 0000000013ABABE8
-[LOG] SystemI::createSoundInternal             :     filename = Z:\School\2016 Spring\DysonSphere\Audio\Build\Desktop/Character.bank : mode 0a010202
-[LOG] SystemI::createSoundInternal             :     exinfo->cbsize             = 216
-[LOG] SystemI::createSoundInternal             :     exinfo->length             = 38464
-[LOG] SystemI::createSoundInternal             :     exinfo->fileoffset         = 9024
-[LOG] SystemI::createSoundInternal             :     exinfo->numsubsounds       = 1
-[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlist      = 000000000FFA5368
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlist      = 000000002837E408
 [LOG] SystemI::createSoundInternal             :     exinfo->inclusionlistnum   = 1
 [LOG] SystemI::createSoundInternal             :     exinfo->suggestedsoundtype = 5
 [LOG] SystemI::createSoundInternal             :     exinfo->initialseekpostype = 1
@@ -145,268 +118,16 @@
 [LOG] SystemI::createSoundInternal             :     creating subsound 0/1
 [LOG] SystemI::createSample                    :     mode 0a010202 length 58650 samples, lengthbytes 11936
 [LOG] SystemI::createSample                    :     channels = 2
-[LOG] SystemI::createSample                    :     output = 0000000013ABA418
+[LOG] SystemI::createSample                    :     output = 0000000028292A18
 [LOG] OutputSoftware::createSample             :     lengthpcm 58650, lengthbytes 11936, channels 2, format 2, freq 48000, mode 0a01020a
 [LOG] SystemI::createSoundInternal             :     done.  OpenState now = FMOD_OPENSTATE_READY.
 
-[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 0000000013ABABE8
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 000000001E0889A8
 [WRN] SoundSourceInstrumentInstance::startChannelIfReady : Loading delay exceeded, sound may play at incorrect time
-[LOG] SoundI::release                          : (null) (0000000013ABB098)
-[LOG] SoundI::release                          : release subsounds. (0000000013ABB098)
-[LOG] SoundI::release                          :     (null) (0000000013ABA288)
-[LOG] SoundI::release                          : release codec. (0000000013ABB098)
-[LOG] SoundI::release                          : (null) (0000000013ABABE8)
-[LOG] SoundI::release                          : release subsounds. (0000000013ABABE8)
-[LOG] SoundI::release                          :     (null) (0000000013ABA738)
-[LOG] SoundI::release                          : release codec. (0000000013ABABE8)
-[LOG] SystemI::createSound                     : filename = Z:\School\2016 Spring\DysonSphere\Audio\Build\Desktop/Character.bank : mode 0a010202
-[LOG] SystemI::createSound                     : FMOD_NONBLOCKING specified.  Putting into queue to be opened asynchronously!
-[LOG] OutputSoftware::createSample             : lengthpcm 0, lengthbytes 0, channels 0, format 0, freq 0, mode 00000000
-[LOG] SystemI::createSound                     : setdata soundi = 0000000013ABA8C8 : node = 000000000FFA63E0
-[LOG] SystemI::createSound                     : add node to async list : head = 000000000FFB1790.  list count = 0
-[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 0000000013ABA8C8
-[LOG] SystemI::createSoundInternal             :     filename = Z:\School\2016 Spring\DysonSphere\Audio\Build\Desktop/Character.bank : mode 0a010202
-[LOG] SystemI::createSoundInternal             :     exinfo->cbsize             = 216
-[LOG] SystemI::createSoundInternal             :     exinfo->length             = 38464
-[LOG] SystemI::createSoundInternal             :     exinfo->fileoffset         = 9024
-[LOG] SystemI::createSoundInternal             :     exinfo->numsubsounds       = 1
-[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlist      = 000000000FFA64E8
-[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlistnum   = 1
-[LOG] SystemI::createSoundInternal             :     exinfo->suggestedsoundtype = 5
-[LOG] SystemI::createSoundInternal             :     exinfo->initialseekpostype = 1
-[LOG] SystemI::createSoundInternal             :     Format has 1 subsounds.
-[LOG] SystemI::createSoundInternal             :     Create as FMOD_CREATESAMPLE
-[LOG] SystemI::createSoundInternal             :     Multi-sample sound (1 subsounds), create a sample container.
-[LOG] SystemI::createSoundInternal             :     creating subsound 0/1
-[LOG] SystemI::createSample                    :     mode 0a010202 length 58650 samples, lengthbytes 11936
-[LOG] SystemI::createSample                    :     channels = 2
-[LOG] SystemI::createSample                    :     output = 0000000013ABA418
-[LOG] OutputSoftware::createSample             :     lengthpcm 58650, lengthbytes 11936, channels 2, format 2, freq 48000, mode 0a01020a
-[LOG] SystemI::createSoundInternal             :     done.  OpenState now = FMOD_OPENSTATE_READY.
-
-[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 0000000013ABA8C8
-[WRN] SoundSourceInstrumentInstance::startChannelIfReady : Loading delay exceeded, sound may play at incorrect time
-[LOG] SoundI::release                          : (null) (0000000013ABA8C8)
-[LOG] SoundI::release                          : release subsounds. (0000000013ABA8C8)
-[LOG] SoundI::release                          :     (null) (0000000013ABABE8)
-[LOG] SoundI::release                          : release codec. (0000000013ABA8C8)
-[LOG] SystemI::createSound                     : filename = Z:\School\2016 Spring\DysonSphere\Audio\Build\Desktop/Character.bank : mode 0a010202
-[LOG] SystemI::createSound                     : FMOD_NONBLOCKING specified.  Putting into queue to be opened asynchronously!
-[LOG] OutputSoftware::createSample             : lengthpcm 0, lengthbytes 0, channels 0, format 0, freq 0, mode 00000000
-[LOG] SystemI::createSound                     : setdata soundi = 0000000013ABAD78 : node = 000000000FFA5260
-[LOG] SystemI::createSound                     : add node to async list : head = 000000000FFB1790.  list count = 0
-[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 0000000013ABAD78
-[LOG] SystemI::createSoundInternal             :     filename = Z:\School\2016 Spring\DysonSphere\Audio\Build\Desktop/Character.bank : mode 0a010202
-[LOG] SystemI::createSoundInternal             :     exinfo->cbsize             = 216
-[LOG] SystemI::createSoundInternal             :     exinfo->length             = 38464
-[LOG] SystemI::createSoundInternal             :     exinfo->fileoffset         = 9024
-[LOG] SystemI::createSoundInternal             :     exinfo->numsubsounds       = 1
-[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlist      = 000000000FFA5368
-[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlistnum   = 1
-[LOG] SystemI::createSoundInternal             :     exinfo->suggestedsoundtype = 5
-[LOG] SystemI::createSoundInternal             :     exinfo->initialseekpostype = 1
-[LOG] SystemI::createSoundInternal             :     Format has 1 subsounds.
-[LOG] SystemI::createSoundInternal             :     Create as FMOD_CREATESAMPLE
-[LOG] SystemI::createSoundInternal             :     Multi-sample sound (1 subsounds), create a sample container.
-[LOG] SystemI::createSoundInternal             :     creating subsound 0/1
-[LOG] SystemI::createSample                    :     mode 0a010202 length 58650 samples, lengthbytes 11936
-[LOG] SystemI::createSample                    :     channels = 2
-[LOG] SystemI::createSample                    :     output = 0000000013ABA418
-[LOG] OutputSoftware::createSample             :     lengthpcm 58650, lengthbytes 11936, channels 2, format 2, freq 48000, mode 0a01020a
-[LOG] SystemI::createSoundInternal             :     done.  OpenState now = FMOD_OPENSTATE_READY.
-
-[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 0000000013ABAD78
-[WRN] SoundSourceInstrumentInstance::startChannelIfReady : Loading delay exceeded, sound may play at incorrect time
-[LOG] SoundI::release                          : (null) (0000000013ABAD78)
-[LOG] SoundI::release                          : release subsounds. (0000000013ABAD78)
-[LOG] SoundI::release                          :     (null) (0000000013ABA738)
-[LOG] SoundI::release                          : release codec. (0000000013ABAD78)
-[LOG] SystemI::createSound                     : filename = Z:\School\2016 Spring\DysonSphere\Audio\Build\Desktop/Character.bank : mode 0a010202
-[LOG] SystemI::createSound                     : FMOD_NONBLOCKING specified.  Putting into queue to be opened asynchronously!
-[LOG] OutputSoftware::createSample             : lengthpcm 0, lengthbytes 0, channels 0, format 0, freq 0, mode 00000000
-[LOG] SystemI::createSound                     : setdata soundi = 0000000013ABAF08 : node = 000000000FFA6520
-[LOG] SystemI::createSound                     : add node to async list : head = 000000000FFB1790.  list count = 0
-[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 0000000013ABAF08
-[LOG] SystemI::createSoundInternal             :     filename = Z:\School\2016 Spring\DysonSphere\Audio\Build\Desktop/Character.bank : mode 0a010202
-[LOG] SystemI::createSoundInternal             :     exinfo->cbsize             = 216
-[LOG] SystemI::createSoundInternal             :     exinfo->length             = 38464
-[LOG] SystemI::createSoundInternal             :     exinfo->fileoffset         = 9024
-[LOG] SystemI::createSoundInternal             :     exinfo->numsubsounds       = 1
-[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlist      = 000000000FFA6628
-[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlistnum   = 1
-[LOG] SystemI::createSoundInternal             :     exinfo->suggestedsoundtype = 5
-[LOG] SystemI::createSoundInternal             :     exinfo->initialseekpostype = 1
-[LOG] SystemI::createSoundInternal             :     Format has 1 subsounds.
-[LOG] SystemI::createSoundInternal             :     Create as FMOD_CREATESAMPLE
-[LOG] SystemI::createSoundInternal             :     Multi-sample sound (1 subsounds), create a sample container.
-[LOG] SystemI::createSoundInternal             :     creating subsound 0/1
-[LOG] SystemI::createSample                    :     mode 0a010202 length 58650 samples, lengthbytes 11936
-[LOG] SystemI::createSample                    :     channels = 2
-[LOG] SystemI::createSample                    :     output = 0000000013ABA418
-[LOG] OutputSoftware::createSample             :     lengthpcm 58650, lengthbytes 11936, channels 2, format 2, freq 48000, mode 0a01020a
-[LOG] SystemI::createSoundInternal             :     done.  OpenState now = FMOD_OPENSTATE_READY.
-
-[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 0000000013ABAF08
-[WRN] SoundSourceInstrumentInstance::startChannelIfReady : Loading delay exceeded, sound may play at incorrect time
-[LOG] SoundI::release                          : (null) (0000000013ABAF08)
-[LOG] SoundI::release                          : release subsounds. (0000000013ABAF08)
-[LOG] SoundI::release                          :     (null) (0000000013ABB098)
-[LOG] SoundI::release                          : release codec. (0000000013ABAF08)
-[LOG] SystemI::createSound                     : filename = Z:\School\2016 Spring\DysonSphere\Audio\Build\Desktop/Character.bank : mode 0a010202
-[LOG] SystemI::createSound                     : FMOD_NONBLOCKING specified.  Putting into queue to be opened asynchronously!
-[LOG] OutputSoftware::createSample             : lengthpcm 0, lengthbytes 0, channels 0, format 0, freq 0, mode 00000000
-[LOG] SystemI::createSound                     : setdata soundi = 0000000013ABA738 : node = 000000000FFA5120
-[LOG] SystemI::createSound                     : add node to async list : head = 000000000FFB1790.  list count = 0
-[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 0000000013ABA738
-[LOG] SystemI::createSoundInternal             :     filename = Z:\School\2016 Spring\DysonSphere\Audio\Build\Desktop/Character.bank : mode 0a010202
-[LOG] SystemI::createSoundInternal             :     exinfo->cbsize             = 216
-[LOG] SystemI::createSoundInternal             :     exinfo->length             = 38464
-[LOG] SystemI::createSoundInternal             :     exinfo->fileoffset         = 9024
-[LOG] SystemI::createSoundInternal             :     exinfo->numsubsounds       = 1
-[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlist      = 000000000FFA5228
-[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlistnum   = 1
-[LOG] SystemI::createSoundInternal             :     exinfo->suggestedsoundtype = 5
-[LOG] SystemI::createSoundInternal             :     exinfo->initialseekpostype = 1
-[LOG] SystemI::createSoundInternal             :     Format has 1 subsounds.
-[LOG] SystemI::createSoundInternal             :     Create as FMOD_CREATESAMPLE
-[LOG] SystemI::createSoundInternal             :     Multi-sample sound (1 subsounds), create a sample container.
-[LOG] SystemI::createSoundInternal             :     creating subsound 0/1
-[LOG] SystemI::createSample                    :     mode 0a010202 length 36352 samples, lengthbytes 5760
-[LOG] SystemI::createSample                    :     channels = 2
-[LOG] SystemI::createSample                    :     output = 0000000013ABA418
-[LOG] OutputSoftware::createSample             :     lengthpcm 36352, lengthbytes 5760, channels 2, format 2, freq 48000, mode 0a01020a
-[LOG] SystemI::createSoundInternal             :     done.  OpenState now = FMOD_OPENSTATE_READY.
-
-[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 0000000013ABA738
-[WRN] SoundSourceInstrumentInstance::startChannelIfReady : Loading delay exceeded, sound may play at incorrect time
-[LOG] SystemI::createSound                     : filename = Z:\School\2016 Spring\DysonSphere\Audio\Build\Desktop/Character.bank : mode 0a010202
-[LOG] SystemI::createSound                     : FMOD_NONBLOCKING specified.  Putting into queue to be opened asynchronously!
-[LOG] OutputSoftware::createSample             : lengthpcm 0, lengthbytes 0, channels 0, format 0, freq 0, mode 00000000
-[LOG] SystemI::createSound                     : setdata soundi = 0000000013ABABE8 : node = 000000000FFA63E0
-[LOG] SystemI::createSound                     : add node to async list : head = 000000000FFB1790.  list count = 0
-[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 0000000013ABABE8
-[LOG] SystemI::createSoundInternal             :     filename = Z:\School\2016 Spring\DysonSphere\Audio\Build\Desktop/Character.bank : mode 0a010202
-[LOG] SystemI::createSoundInternal             :     exinfo->cbsize             = 216
-[LOG] SystemI::createSoundInternal             :     exinfo->length             = 38464
-[LOG] SystemI::createSoundInternal             :     exinfo->fileoffset         = 9024
-[LOG] SystemI::createSoundInternal             :     exinfo->numsubsounds       = 1
-[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlist      = 000000000FFA64E8
-[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlistnum   = 1
-[LOG] SystemI::createSoundInternal             :     exinfo->suggestedsoundtype = 5
-[LOG] SystemI::createSoundInternal             :     exinfo->initialseekpostype = 1
-[LOG] SystemI::createSoundInternal             :     Format has 1 subsounds.
-[LOG] SystemI::createSoundInternal             :     Create as FMOD_CREATESAMPLE
-[LOG] SystemI::createSoundInternal             :     Multi-sample sound (1 subsounds), create a sample container.
-[LOG] SystemI::createSoundInternal             :     creating subsound 0/1
-[LOG] SystemI::createSample                    :     mode 0a010202 length 58650 samples, lengthbytes 11936
-[LOG] SystemI::createSample                    :     channels = 2
-[LOG] SystemI::createSample                    :     output = 0000000013ABA418
-[LOG] OutputSoftware::createSample             :     lengthpcm 58650, lengthbytes 11936, channels 2, format 2, freq 48000, mode 0a01020a
-[LOG] SystemI::createSoundInternal             :     done.  OpenState now = FMOD_OPENSTATE_READY.
-
-[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 0000000013ABABE8
-[WRN] SoundSourceInstrumentInstance::startChannelIfReady : Loading delay exceeded, sound may play at incorrect time
-[LOG] SoundI::release                          : (null) (0000000013ABABE8)
-[LOG] SoundI::release                          : release subsounds. (0000000013ABABE8)
-[LOG] SoundI::release                          :     (null) (0000000013ABAF08)
-[LOG] SoundI::release                          : release codec. (0000000013ABABE8)
-[LOG] SystemI::createSound                     : filename = Z:\School\2016 Spring\DysonSphere\Audio\Build\Desktop/Character.bank : mode 0a010202
-[LOG] SystemI::createSound                     : FMOD_NONBLOCKING specified.  Putting into queue to be opened asynchronously!
-[LOG] OutputSoftware::createSample             : lengthpcm 0, lengthbytes 0, channels 0, format 0, freq 0, mode 00000000
-[LOG] SystemI::createSound                     : setdata soundi = 0000000013ABA8C8 : node = 000000000FFA5260
-[LOG] SystemI::createSound                     : add node to async list : head = 000000000FFB1790.  list count = 0
-[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 0000000013ABA8C8
-[LOG] SystemI::createSoundInternal             :     filename = Z:\School\2016 Spring\DysonSphere\Audio\Build\Desktop/Character.bank : mode 0a010202
-[LOG] SystemI::createSoundInternal             :     exinfo->cbsize             = 216
-[LOG] SystemI::createSoundInternal             :     exinfo->length             = 38464
-[LOG] SystemI::createSoundInternal             :     exinfo->fileoffset         = 9024
-[LOG] SystemI::createSoundInternal             :     exinfo->numsubsounds       = 1
-[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlist      = 000000000FFA5368
-[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlistnum   = 1
-[LOG] SystemI::createSoundInternal             :     exinfo->suggestedsoundtype = 5
-[LOG] SystemI::createSoundInternal             :     exinfo->initialseekpostype = 1
-[LOG] SystemI::createSoundInternal             :     Format has 1 subsounds.
-[LOG] SystemI::createSoundInternal             :     Create as FMOD_CREATESAMPLE
-[LOG] SystemI::createSoundInternal             :     Multi-sample sound (1 subsounds), create a sample container.
-[LOG] SystemI::createSoundInternal             :     creating subsound 0/1
-[LOG] SystemI::createSample                    :     mode 0a010202 length 58650 samples, lengthbytes 11936
-[LOG] SystemI::createSample                    :     channels = 2
-[LOG] SystemI::createSample                    :     output = 0000000013ABA418
-[LOG] OutputSoftware::createSample             :     lengthpcm 58650, lengthbytes 11936, channels 2, format 2, freq 48000, mode 0a01020a
-[LOG] SystemI::createSoundInternal             :     done.  OpenState now = FMOD_OPENSTATE_READY.
-
-[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 0000000013ABA8C8
-[WRN] SoundSourceInstrumentInstance::startChannelIfReady : Loading delay exceeded, sound may play at incorrect time
-[LOG] SoundI::release                          : (null) (0000000013ABA8C8)
-[LOG] SoundI::release                          : release subsounds. (0000000013ABA8C8)
-[LOG] SoundI::release                          :     (null) (0000000013ABA288)
-[LOG] SoundI::release                          : release codec. (0000000013ABA8C8)
-[LOG] SystemI::createSound                     : filename = Z:\School\2016 Spring\DysonSphere\Audio\Build\Desktop/Character.bank : mode 0a010202
-[LOG] SystemI::createSound                     : FMOD_NONBLOCKING specified.  Putting into queue to be opened asynchronously!
-[LOG] OutputSoftware::createSample             : lengthpcm 0, lengthbytes 0, channels 0, format 0, freq 0, mode 00000000
-[LOG] SystemI::createSound                     : setdata soundi = 0000000013ABA288 : node = 000000000FFA58A0
-[LOG] SystemI::createSound                     : add node to async list : head = 000000000FFB1790.  list count = 0
-[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 0000000013ABA288
-[LOG] SystemI::createSoundInternal             :     filename = Z:\School\2016 Spring\DysonSphere\Audio\Build\Desktop/Character.bank : mode 0a010202
-[LOG] SystemI::createSoundInternal             :     exinfo->cbsize             = 216
-[LOG] SystemI::createSoundInternal             :     exinfo->length             = 38464
-[LOG] SystemI::createSoundInternal             :     exinfo->fileoffset         = 9024
-[LOG] SystemI::createSoundInternal             :     exinfo->numsubsounds       = 1
-[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlist      = 000000000FFA59A8
-[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlistnum   = 1
-[LOG] SystemI::createSoundInternal             :     exinfo->suggestedsoundtype = 5
-[LOG] SystemI::createSoundInternal             :     exinfo->initialseekpostype = 1
-[LOG] SystemI::createSoundInternal             :     Format has 1 subsounds.
-[LOG] SystemI::createSoundInternal             :     Create as FMOD_CREATESAMPLE
-[LOG] SystemI::createSoundInternal             :     Multi-sample sound (1 subsounds), create a sample container.
-[LOG] SystemI::createSoundInternal             :     creating subsound 0/1
-[LOG] SystemI::createSample                    :     mode 0a010202 length 58650 samples, lengthbytes 11936
-[LOG] SystemI::createSample                    :     channels = 2
-[LOG] SystemI::createSample                    :     output = 0000000013ABA418
-[LOG] OutputSoftware::createSample             :     lengthpcm 58650, lengthbytes 11936, channels 2, format 2, freq 48000, mode 0a01020a
-[LOG] SystemI::createSoundInternal             :     done.  OpenState now = FMOD_OPENSTATE_READY.
-
-[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 0000000013ABA288
-[WRN] SoundSourceInstrumentInstance::startChannelIfReady : Loading delay exceeded, sound may play at incorrect time
-[LOG] SoundI::release                          : (null) (0000000013ABA288)
-[LOG] SoundI::release                          : release subsounds. (0000000013ABA288)
-[LOG] SoundI::release                          :     (null) (0000000013ABAF08)
-[LOG] SoundI::release                          : release codec. (0000000013ABA288)
-[LOG] SystemI::createSound                     : filename = Z:\School\2016 Spring\DysonSphere\Audio\Build\Desktop/Character.bank : mode 0a010202
-[LOG] SystemI::createSound                     : FMOD_NONBLOCKING specified.  Putting into queue to be opened asynchronously!
-[LOG] OutputSoftware::createSample             : lengthpcm 0, lengthbytes 0, channels 0, format 0, freq 0, mode 00000000
-[LOG] SystemI::createSound                     : setdata soundi = 0000000013ABA8C8 : node = 000000000FFA5620
-[LOG] SystemI::createSound                     : add node to async list : head = 000000000FFB1790.  list count = 0
-[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 0000000013ABA8C8
-[LOG] SystemI::createSoundInternal             :     filename = Z:\School\2016 Spring\DysonSphere\Audio\Build\Desktop/Character.bank : mode 0a010202
-[LOG] SystemI::createSoundInternal             :     exinfo->cbsize             = 216
-[LOG] SystemI::createSoundInternal             :     exinfo->length             = 38464
-[LOG] SystemI::createSoundInternal             :     exinfo->fileoffset         = 9024
-[LOG] SystemI::createSoundInternal             :     exinfo->numsubsounds       = 1
-[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlist      = 000000000FFA5728
-[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlistnum   = 1
-[LOG] SystemI::createSoundInternal             :     exinfo->suggestedsoundtype = 5
-[LOG] SystemI::createSoundInternal             :     exinfo->initialseekpostype = 1
-[LOG] SystemI::createSoundInternal             :     Format has 1 subsounds.
-[LOG] SystemI::createSoundInternal             :     Create as FMOD_CREATESAMPLE
-[LOG] SystemI::createSoundInternal             :     Multi-sample sound (1 subsounds), create a sample container.
-[LOG] SystemI::createSoundInternal             :     creating subsound 0/1
-[LOG] SystemI::createSample                    :     mode 0a010202 length 58650 samples, lengthbytes 11936
-[LOG] SystemI::createSample                    :     channels = 2
-[LOG] SystemI::createSample                    :     output = 0000000013ABA418
-[LOG] OutputSoftware::createSample             :     lengthpcm 58650, lengthbytes 11936, channels 2, format 2, freq 48000, mode 0a01020a
-[LOG] SystemI::createSoundInternal             :     done.  OpenState now = FMOD_OPENSTATE_READY.
-
-[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 0000000013ABA8C8
-[WRN] SoundSourceInstrumentInstance::startChannelIfReady : Loading delay exceeded, sound may play at incorrect time
-[LOG] SoundI::release                          : (null) (0000000013ABA8C8)
-[LOG] SoundI::release                          : release subsounds. (0000000013ABA8C8)
-[LOG] SoundI::release                          :     (null) (0000000013ABABE8)
-[LOG] SoundI::release                          : release codec. (0000000013ABA8C8)
-[LOG] SoundI::release                          : (null) (0000000013ABA738)
-[LOG] SoundI::release                          : release subsounds. (0000000013ABA738)
-[LOG] SoundI::release                          :     (null) (0000000013ABAD78)
-[LOG] SoundI::release                          : release codec. (0000000013ABA738)
+[LOG] SoundI::release                          : (null) (000000001E0889A8)
+[LOG] SoundI::release                          : release subsounds. (000000001E0889A8)
+[LOG] SoundI::release                          :     (null) (0000000028384278)
+[LOG] SoundI::release                          : release codec. (000000001E0889A8)
 [LOG] Thread::callback                         : * FMOD Studio update thread finished
 [LOG] Thread::close                            : FMOD Studio update thread thread destroyed
 [LOG] Thread::callback                         : * FMOD Studio load thread finished
