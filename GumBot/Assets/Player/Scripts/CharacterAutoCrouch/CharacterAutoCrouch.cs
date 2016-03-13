@@ -57,7 +57,7 @@ public class CharacterAutoCrouch : MonoBehaviour {
 		if (!bottom && top && theGroundCheck.grounded && !crouching) 
 		{
 			crouching = true;
-			theAnimator.SetBool ("Crouch", true);
+//			theAnimator.SetBool ("Crouch", true);
 
 			// crouch
 			//theCharacterMotor.transform.localScale = new Vector3 (theCharacterMotor.transform.localScale.x, theCharacterMotor.transform.localScale.y / 2, theCharacterMotor.transform.localScale.z);

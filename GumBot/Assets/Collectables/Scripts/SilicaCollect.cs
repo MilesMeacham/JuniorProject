@@ -20,7 +20,7 @@ public class SilicaCollect : MonoBehaviour {
     {
         if (Collider.gameObject.tag == "Player")
         {
-            CarbonCounter.silicatotal++;
+            CarbonCounter.carbontotal++;
             Destroy(gameObject);
         }
     }

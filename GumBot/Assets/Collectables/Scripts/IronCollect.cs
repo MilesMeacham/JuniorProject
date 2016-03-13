@@ -20,7 +20,7 @@ public class IronCollect : MonoBehaviour {
     {
         if (Collider.gameObject.tag == "Player")
         {
-            CarbonCounter.irontotal++;
+            CarbonCounter.carbontotal++;
             Destroy(gameObject);
         }
     }

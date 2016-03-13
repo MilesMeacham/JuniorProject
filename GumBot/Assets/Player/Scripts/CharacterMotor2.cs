@@ -25,6 +25,7 @@ public class CharacterMotor2 : MonoBehaviour {
 
 	//Animator
 	public Animator theAnimator;
+	private bool walking;
 	
 	// Use this for initialization
 	void Start () 
@@ -71,19 +72,21 @@ public class CharacterMotor2 : MonoBehaviour {
 			movingLeft = false;
 		}
 
-		//Animator Control
+/*		//Animator Control
 		if(gameObject.tag == "Player")
 		{
-			if(movingLeft == true || movingRight == true)
+			if(movingLeft == true && walking == false || movingRight == true && walking == false)
 			{
-				theAnimator.SetBool ("Walk", true);
+				walking = true;
+				theAnimator.SetBool ("Walk", walking);
 			}
-			else
+			else if (walking != false);
 			{
-				theAnimator.SetBool ("Walk", false);
+				walking = false;
+				theAnimator.SetBool ("Walk", walking);
 			}
 		}
-
+*/
 	}
 	
 	

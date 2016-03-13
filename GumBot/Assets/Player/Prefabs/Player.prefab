@@ -663,6 +663,10 @@ GameObject:
   - 114: {fileID: 11422980}
   - 114: {fileID: 11445338}
   - 114: {fileID: 11448610}
+  - 114: {fileID: 11448074}
+  - 114: {fileID: 11489916}
+  - 114: {fileID: 11481542}
+  - 114: {fileID: 11404294}
   m_Layer: 9
   m_Name: Player
   m_TagString: Player
@@ -1058,8 +1062,6 @@ GameObject:
   - 124: {fileID: 12434508}
   - 81: {fileID: 8193076}
   - 114: {fileID: 11437742}
-  - 114: {fileID: 11436542}
-  - 114: {fileID: 11412802}
   - 114: {fileID: 11468008}
   - 114: {fileID: 11482330}
   m_Layer: 0
@@ -1348,7 +1350,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 199042}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: -.319999695, z: -12.8000002}
+  m_LocalPosition: {x: 0, y: 1.91999996, z: -12.7600002}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 458084}
@@ -1550,7 +1552,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 162510}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 19.5900002, y: 85.4199982, z: 0}
+  m_LocalPosition: {x: 3.5, y: 17, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 449658}
@@ -2014,8 +2016,8 @@ Camera:
   near clip plane: .300000012
   far clip plane: 1000
   field of view: 60
-  orthographic: 0
-  orthographic size: 5
+  orthographic: 1
+  orthographic size: 10
   m_Depth: -1
   m_CullingMask:
     serializedVersion: 2
@@ -2136,6 +2138,24 @@ Animator:
   m_WarningMessage: 
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
+--- !u!114 &11404294
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 162510}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Event: event:/dyson/player_Shoot
+  PlayEvent: 0
+  StopEvent: 0
+  CollisionTag: 
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Params: []
 --- !u!114 &11405276
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -2145,17 +2165,6 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: ab30c70706de4544a8202b62f95814a4, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
---- !u!114 &11412802
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 199042}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8df564cbc5fdd604f8270474a098bb6e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!114 &11421476
@@ -2201,12 +2210,16 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3738a9b85d622204d9c6e6ef3f19c927, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  bulletPools: {fileID: 0}
   bullet: {fileID: 193918, guid: 6e93c717813752b42a1f272ae8358cae, type: 2}
+  poolName: BulletPooler
   shootingPoint: {fileID: 404284}
   damage: 1
   reloadTime: .5
   reloading: 0
   DrillUPG: {fileID: 0}
+  shotSound: {fileID: 11404294}
+  reloadSound: {fileID: 11481542}
   bulletTag: PlayerBullet
 --- !u!114 &11430456
 MonoBehaviour:
@@ -2242,17 +2255,6 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 6671715423d7bc343aeba1a55046b560, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
---- !u!114 &11436542
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 199042}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8df564cbc5fdd604f8270474a098bb6e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!114 &11437742
@@ -2310,7 +2312,26 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   theCharacterMotor: {fileID: 0}
   theGroundCheck: {fileID: 0}
+  jumpSound: {fileID: 11489916}
   doubleJumped: 0
+--- !u!114 &11448074
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 162510}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Event: event:/dyson/player_Hurt_01
+  PlayEvent: 0
+  StopEvent: 0
+  CollisionTag: 
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Params: []
 --- !u!114 &11448244
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -2344,6 +2365,8 @@ MonoBehaviour:
   reloading: 0
   DrillUPG: {fileID: 0}
   bulletTag: PlayerBullet
+  bulletPools: {fileID: 0}
+  poolName: BulletPooler
 --- !u!114 &11456688
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -2383,6 +2406,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8df564cbc5fdd604f8270474a098bb6e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  carbonBar: {fileID: 0}
 --- !u!114 &11468276
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -2404,6 +2428,7 @@ MonoBehaviour:
   facingRight: 1
   movingLeft: 0
   movingRight: 0
+  theAnimator: {fileID: 0}
 --- !u!114 &11470088
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -2421,6 +2446,24 @@ MonoBehaviour:
   Damage: {fileID: 0}
   SpeedBoots: 0
   HazBoots: 0
+--- !u!114 &11481542
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 162510}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Event: event:/dyson/player_reload
+  PlayEvent: 0
+  StopEvent: 0
+  CollisionTag: 
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Params: []
 --- !u!114 &11482330
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -2451,6 +2494,8 @@ MonoBehaviour:
   maxHealth: 5
   minHealth: 0
   possibleMaxHealth: 10
+  hurtSound: {fileID: 11448074}
+  healthBar: {fileID: 0}
   invincible: 0
   invincibilityTime: 2
 --- !u!114 &11487536
@@ -2468,6 +2513,24 @@ MonoBehaviour:
   top: 0
   crouching: 0
   theGroundCheck: {fileID: 11430456}
+--- !u!114 &11489916
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 162510}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Event: event:/dyson/player_Jump
+  PlayEvent: 0
+  StopEvent: 0
+  CollisionTag: 
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Params: []
 --- !u!114 &11499428
 MonoBehaviour:
   m_ObjectHideFlags: 1

@@ -17,20 +17,34 @@ public class CharacterDrill : MonoBehaviour {
     // This should either be EnemyBullet or PlayerBullet. Set it to that in the editor
     public string bulletTag;
 
+	private ObjectPooler bulletPooler;
+	public ObjectPooler bulletPools;
+
+	// Set this to which ever projectile you want him to shoot, if unchanged it will shoot the basic bullets.
+	public string poolName = "BulletPooler";
+
 
     void Start()
     {
         DrillUPG = GetComponent<DrillUpgrades>();
+		bulletPools = GameObject.Find (poolName).GetComponent<ObjectPooler> ();
     }
 
     public void shot()
     {
+		bullet = bulletPools.GetPooledObject ();
+
+
+		// Go over this with Jeremy, Can be simplyfied
         if (!reloading && DrillUPG.PlamsaDrill == false && DrillUPG.RapidDrill == false && DrillUPG.PowerDrill == false)
         {
             bullet.GetComponent<bulletMovement>().theCharacterMotor = gameObject.GetComponent<CharacterMotor2>();
             bullet.GetComponent<bulletMovement>().damage = damage;
             bullet.gameObject.tag = bulletTag;
-            Instantiate(bullet, shootingPoint.position, shootingPoint.rotation);
+
+			bullet.transform.position = shootingPoint.transform.position;
+			bullet.SetActive (true);
+
             StartCoroutine("ShotCo");
         }
 
@@ -39,7 +53,10 @@ public class CharacterDrill : MonoBehaviour {
             bullet.GetComponent<bulletMovement>().theCharacterMotor = gameObject.GetComponent<CharacterMotor2>();
             bullet.GetComponent<bulletMovement>().damage = Plasmadamage;
             bullet.gameObject.tag = bulletTag;
-            Instantiate(PlasmaBullet, shootingPoint.position, shootingPoint.rotation);
+            
+			bullet.transform.position = shootingPoint.transform.position;
+			bullet.SetActive (true);
+
             StartCoroutine("ShotCo");
         }
 
@@ -48,7 +65,10 @@ public class CharacterDrill : MonoBehaviour {
             bullet.GetComponent<bulletMovement>().theCharacterMotor = gameObject.GetComponent<CharacterMotor2>();
             bullet.GetComponent<bulletMovement>().damage = damage;
             bullet.gameObject.tag = bulletTag;
-            Instantiate(bullet, shootingPoint.position, shootingPoint.rotation);
+            
+			bullet.transform.position = shootingPoint.transform.position;
+			bullet.SetActive (true);
+
             StartCoroutine("RapidShotCo");
         }
 
@@ -57,7 +77,10 @@ public class CharacterDrill : MonoBehaviour {
             bullet.GetComponent<bulletMovement>().theCharacterMotor = gameObject.GetComponent<CharacterMotor2>();
             bullet.GetComponent<bulletMovement>().damage = Plasmadamage;
             bullet.gameObject.tag = bulletTag;
-            Instantiate(bullet, shootingPoint.position, shootingPoint.rotation);
+            
+			bullet.transform.position = shootingPoint.transform.position;
+			bullet.SetActive (true);
+
             StartCoroutine("ShotCo");
         }
     }

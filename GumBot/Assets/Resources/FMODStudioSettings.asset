@@ -14,7 +14,7 @@ MonoBehaviour:
   HasSourceProject: 0
   HasPlatforms: 1
   SourceProjectPath: 
-  SourceBankPath: /Users/milesmeacham/Documents/School/2016 Spring/DysonSphere/Audio/Build
+  SourceBankPath: Z:\School\2016 Spring\DysonSphere\Audio\Build
   AutomaticEventLoading: 1
   AutomaticSampleLoading: 0
   SpeakerModeSettings:
@@ -51,4 +51,8 @@ MonoBehaviour:
     Value: 32
   Plugins: []
   MasterBank: Master Bank
-  Banks: []
+  Banks:
+  - Character
+  - Ambiance
+  - Music
+  - Debug

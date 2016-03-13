@@ -11,10 +11,24 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d32cf7c32a3ed8347bac48ef5ed56d82, type: 3}
   m_Name: FMODStudioCache
   m_EditorClassIdentifier: 
-  EditorBanks: []
-  EditorEvents: []
-  MasterBankRef: {fileID: 11441048}
-  stringsBankWriteTime: 0
+  EditorBanks:
+  - {fileID: 11455638}
+  - {fileID: 11412030}
+  - {fileID: 11461398}
+  - {fileID: 11467486}
+  - {fileID: 11411860}
+  EditorEvents:
+  - {fileID: 11446702}
+  - {fileID: 11403864}
+  - {fileID: 11442568}
+  - {fileID: 11476640}
+  - {fileID: 11455726}
+  - {fileID: 11425396}
+  - {fileID: 11443026}
+  - {fileID: 11407176}
+  - {fileID: 11411990}
+  MasterBankRef: {fileID: 11467486}
+  stringsBankWriteTime: 635929956330434971
 --- !u!114 &11401072
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -56,6 +70,27 @@ MonoBehaviour:
   Parameters: []
   MinDistance: 1
   MaxDistance: 20
+--- !u!114 &11403864
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Path: event:/dyson/enemy_Block_01
+  guid: 0fb349ba48f84845bea2eaab35c59fe3
+  Banks:
+  - {fileID: 11455638}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
 --- !u!114 &11405378
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -76,6 +111,27 @@ MonoBehaviour:
   - Name: Mobile
     Value: 6047328
   Exists: 1
+--- !u!114 &11407176
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Path: event:/Music_Main
+  guid: 339a2c55189c1440bdad497063454689
+  Banks:
+  - {fileID: 11461398}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
 --- !u!114 &11409454
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -93,6 +149,67 @@ MonoBehaviour:
   FileSizes:
   - Name: Desktop
     Value: 866
+  Exists: 1
+--- !u!114 &11411860
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Path: Z:\School\2016 Spring\DysonSphere\Audio\Build\Desktop\Debug.bank
+  lastModified: 635929956330384925
+  LoadResult: 0
+  FileSizes:
+  - Name: Desktop
+    Value: 866
+  - Name: Mobile
+    Value: 866
+  Exists: 1
+--- !u!114 &11411990
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Path: event:/debug/Silence
+  guid: b2957796d08ffc42b2f80792b8fdd10e
+  Banks:
+  - {fileID: 11411860}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+--- !u!114 &11412030
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Path: Z:\School\2016 Spring\DysonSphere\Audio\Build\Desktop\Ambiance.bank
+  lastModified: 635929956330319860
+  LoadResult: 0
+  FileSizes:
+  - Name: Desktop
+    Value: 128064
+  - Name: Mobile
+    Value: 197632
   Exists: 1
 --- !u!114 &11412182
 MonoBehaviour:
@@ -323,6 +440,27 @@ MonoBehaviour:
   - Name: Mobile
     Value: 9266
   Exists: 1
+--- !u!114 &11425396
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Path: event:/dyson/player_reload
+  guid: fb3fb56f856c1344b270010453d26467
+  Banks:
+  - {fileID: 11455638}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
 --- !u!114 &11428686
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -551,6 +689,48 @@ MonoBehaviour:
   Parameters: []
   MinDistance: 1
   MaxDistance: 20
+--- !u!114 &11442568
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Path: event:/dyson/player_Hurt_01
+  guid: 5c19d3bd6d7d3e41bcb0b4ec342bb4d0
+  Banks:
+  - {fileID: 11455638}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+--- !u!114 &11443026
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Path: event:/ambiance_01
+  guid: 650658ce994e16459ab94ad47d93b0f2
+  Banks:
+  - {fileID: 11412030}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
 --- !u!114 &11444314
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -566,6 +746,27 @@ MonoBehaviour:
   guid: 0fb349ba48f84845bea2eaab35c59fe3
   Banks:
   - {fileID: 11472898}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+--- !u!114 &11446702
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Path: event:/dyson/player_Shoot
+  guid: 0ae906b83756a448838366381f9804ba
+  Banks:
+  - {fileID: 11455638}
   IsStream: 0
   Is3D: 1
   IsOneShot: 1
@@ -656,6 +857,47 @@ MonoBehaviour:
   Parameters: []
   MinDistance: 1
   MaxDistance: 20
+--- !u!114 &11455638
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Path: Z:\School\2016 Spring\DysonSphere\Audio\Build\Desktop\Character.bank
+  lastModified: 635929956330359901
+  LoadResult: 0
+  FileSizes:
+  - Name: Desktop
+    Value: 47488
+  - Name: Mobile
+    Value: 116640
+  Exists: 1
+--- !u!114 &11455726
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Path: event:/dyson/player_Jump
+  guid: 70ec37a3d9e0a14e9daa8371c2ab662f
+  Banks:
+  - {fileID: 11455638}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
 --- !u!114 &11459148
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -698,6 +940,26 @@ MonoBehaviour:
   Parameters: []
   MinDistance: 1
   MaxDistance: 20
+--- !u!114 &11461398
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Path: Z:\School\2016 Spring\DysonSphere\Audio\Build\Desktop\Music.bank
+  lastModified: 635929956330730254
+  LoadResult: 0
+  FileSizes:
+  - Name: Desktop
+    Value: 2875776
+  - Name: Mobile
+    Value: 6047328
+  Exists: 1
 --- !u!114 &11463224
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -711,6 +973,26 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Path: C:\Users\10556476\Documents\JuniorProject\Audio\Build\Desktop\Master Bank.bank
   lastModified: 635925437911209708
+  LoadResult: 0
+  FileSizes:
+  - Name: Desktop
+    Value: 9266
+  - Name: Mobile
+    Value: 9266
+  Exists: 1
+--- !u!114 &11467486
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Path: Z:\School\2016 Spring\DysonSphere\Audio\Build\Desktop\Master Bank.bank
+  lastModified: 635929956330409950
   LoadResult: 0
   FileSizes:
   - Name: Desktop
@@ -773,6 +1055,27 @@ MonoBehaviour:
   guid: 0ae906b83756a448838366381f9804ba
   Banks:
   - {fileID: 11429790}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+--- !u!114 &11476640
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Path: event:/dyson/player_Hydraulics
+  guid: 5c8d2c20dc7eed4fbb4d3139970cbdb7
+  Banks:
+  - {fileID: 11455638}
   IsStream: 0
   Is3D: 1
   IsOneShot: 1

@@ -20,7 +20,7 @@ public class CharacterHealth : MonoBehaviour {
 	//temp audio
 	public StudioEventEmitter hurtSound;
 
-	private Image healthBar;
+	public Image healthBar;
 
 	public bool invincible;
 
@@ -33,7 +33,8 @@ public class CharacterHealth : MonoBehaviour {
 		// Set health to maxHealth when spawned
 		health = maxHealth;
 
-		healthBar = transform.FindChild("EnemyCanvas").FindChild("HealthBG").FindChild("Health").GetComponent<Image>();
+		if (tag == "Enemy")
+			healthBar = transform.FindChild("EnemyCanvas").FindChild("HealthBG").FindChild("Health").GetComponent<Image>();
 
 	}
 
