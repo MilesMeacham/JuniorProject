@@ -217,7 +217,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 1
+  m_RootOrder: 4
 --- !u!114 &526471432 stripped
 MonoBehaviour:
   m_PrefabParentObject: {fileID: 11474414, guid: 4dc992bcbbfd4421586d36822d45c408,
@@ -306,6 +306,10 @@ Prefab:
     - target: {fileID: 141568, guid: 4dc992bcbbfd4421586d36822d45c408, type: 2}
       propertyPath: m_Name
       value: Canvas
+      objectReference: {fileID: 0}
+    - target: {fileID: 141568, guid: 4dc992bcbbfd4421586d36822d45c408, type: 2}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 4dc992bcbbfd4421586d36822d45c408, type: 2}
@@ -459,4 +463,4 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 3
+  m_RootOrder: 1
