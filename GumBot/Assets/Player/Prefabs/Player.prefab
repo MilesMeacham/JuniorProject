@@ -1552,7 +1552,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 162510}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 3.5, y: 17, z: 0}
+  m_LocalPosition: {x: -6.17999983, y: 40.0699997, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 449658}
@@ -2006,7 +2006,7 @@ Camera:
   m_Enabled: 1
   serializedVersion: 2
   m_ClearFlags: 2
-  m_BackGroundColor: {r: .192156866, g: .301960796, b: .474509805, a: .0196078438}
+  m_BackGroundColor: {r: .33088237, g: .33088237, b: .33088237, a: .0196078438}
   m_NormalizedViewPortRect:
     serializedVersion: 2
     x: 0
@@ -2390,7 +2390,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9cf9d7cf57f77cc4993bb4661eb61506, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  ChestUPG: {fileID: 0}
+  ChestUPG: {fileID: 11422980}
   LavaKnockback: 10
   immuneToPlayerDamage: 1
   immuneToEnemyDamage: 0
