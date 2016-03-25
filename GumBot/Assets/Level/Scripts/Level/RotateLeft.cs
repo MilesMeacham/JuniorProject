@@ -3,7 +3,7 @@ using System.Collections;
 
 public class RotateLeft : MonoBehaviour {
 
-	public float rotationSpeed = 1f;
+	public float rotationSpeed = 0.5f;
 	
 	// Use this for initialization
 	void Start () {

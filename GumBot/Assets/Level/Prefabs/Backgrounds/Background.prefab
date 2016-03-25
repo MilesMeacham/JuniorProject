@@ -24,7 +24,6 @@ GameObject:
   serializedVersion: 4
   m_Component:
   - 4: {fileID: 467144}
-  - 114: {fileID: 11477980}
   - 114: {fileID: 11497686}
   m_Layer: 0
   m_Name: Background
@@ -430,19 +429,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   rotationSpeed: .5
---- !u!114 &11477980
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 114764}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 011ab8914b542fd47866b7c76d391e20, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  thePlayerMotor: {fileID: 0}
-  parallax: 0
 --- !u!114 &11497686
 MonoBehaviour:
   m_ObjectHideFlags: 1
