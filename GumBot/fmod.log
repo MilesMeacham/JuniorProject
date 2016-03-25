@@ -10,7 +10,10 @@
 [LOG] Thread::initThread                       : Initializing FMOD (WASAPI) feeder thread.  priority 0
 [LOG] Thread::initThread                       : - Stacksize 0.  Stack pointer 0000000000000000 : usesemaphore = 0 : sleeptime = 0
 [LOG] Thread::callback                         : * FMOD (WASAPI) feeder thread started
+<<<<<<< HEAD
+=======
 [LOG] OutputWASAPI::feederUpdate               : WASAPI feeder thread set to 'Audio' characteristic
+>>>>>>> 708f207819057b7656fe84716f5c878b24243afa
 [LOG] Thread::initThread                       : Initializing FMOD mixer thread.  priority 2
 [LOG] Thread::initThread                       : - Stacksize 49152.  Stack pointer 0000000000000000 : usesemaphore = 1 : sleeptime = 0
 [LOG] Thread::callback                         : * FMOD mixer thread started
@@ -26,6 +29,12 @@
 [LOG] Thread::initThread                       : Initializing FMOD Studio load thread.  priority 0
 [LOG] Thread::initThread                       : - Stacksize 65536.  Stack pointer 0000000000000000 : usesemaphore = 0 : sleeptime = 1
 [LOG] Thread::callback                         : * FMOD Studio load thread started
+<<<<<<< HEAD
+[LOG] OutputWASAPI::feederUpdate               : WASAPI feeder thread set to 'Audio' characteristic
+[WRN] OutputWASAPI::feederUpdate               : Starvation detected in WASAPI output buffer!
+[ERR] BankLoader::openBankFile                 : Failed to open file 'Z:\School\2016 Spring\DysonSphere\Audio\Build\Desktop/Master Bank.strings.bank'
+[ERR] BankLoader::openBankFile                 : Failed to open file 'Z:\School\2016 Spring\DysonSphere\Audio\Build\Desktop/Master Bank.bank'
+=======
 <<<<<<< HEAD
 [LOG] Manager::readBank                        : fileversion = 68, compatVersion = 68 (oldest = 44, newest = 68)
 [LOG] Manager::readBank                        : fileversion = 68, compatVersion = 68 (oldest = 44, newest = 68)
@@ -133,6 +142,7 @@
 [ERR] BankLoader::openBankFile                 : Failed to open file 'Z:\School\2016 Spring\DysonSphere\Audio\Build\Desktop/Master Bank.strings.bank'
 [ERR] BankLoader::openBankFile                 : Failed to open file 'Z:\School\2016 Spring\DysonSphere\Audio\Build\Desktop/Master Bank.bank'
 >>>>>>> d8614f3c46668e55dcf0d70a6ca55b3456153e8a
+>>>>>>> 708f207819057b7656fe84716f5c878b24243afa
 [LOG] Thread::callback                         : * FMOD Studio update thread finished
 [LOG] Thread::close                            : FMOD Studio update thread thread destroyed
 [LOG] Thread::callback                         : * FMOD Studio load thread finished

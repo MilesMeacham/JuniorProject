@@ -43,7 +43,7 @@ GameObject:
   - 33: {fileID: 3346832}
   - 23: {fileID: 2369182}
   - 64: {fileID: 6464528}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: cloud2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -61,7 +61,7 @@ GameObject:
   - 33: {fileID: 3336546}
   - 23: {fileID: 2314394}
   - 64: {fileID: 6487190}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: cloud8
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -127,7 +127,7 @@ GameObject:
   - 33: {fileID: 3348336}
   - 23: {fileID: 2342440}
   - 64: {fileID: 6405002}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: cloud33
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -161,7 +161,7 @@ GameObject:
   - 33: {fileID: 3356234}
   - 23: {fileID: 2392170}
   - 64: {fileID: 6445030}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: cloud4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -195,7 +195,7 @@ GameObject:
   - 33: {fileID: 3356520}
   - 23: {fileID: 2323916}
   - 64: {fileID: 6419748}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: cloud30
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -213,7 +213,7 @@ GameObject:
   - 33: {fileID: 3336850}
   - 23: {fileID: 2333810}
   - 64: {fileID: 6423816}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: skyIsland23
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -231,7 +231,7 @@ GameObject:
   - 33: {fileID: 3329588}
   - 23: {fileID: 2375240}
   - 64: {fileID: 6482604}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: cloud3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -265,7 +265,7 @@ GameObject:
   - 33: {fileID: 3300624}
   - 23: {fileID: 2354582}
   - 64: {fileID: 6458438}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: cloud34
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -283,7 +283,7 @@ GameObject:
   - 33: {fileID: 3376040}
   - 23: {fileID: 2389956}
   - 64: {fileID: 6496916}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: cloud31
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -361,7 +361,7 @@ GameObject:
   serializedVersion: 4
   m_Component:
   - 4: {fileID: 400366}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: IslandDebris_Group
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -410,7 +410,7 @@ GameObject:
   - 33: {fileID: 3391494}
   - 23: {fileID: 2328988}
   - 64: {fileID: 6409610}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: skyIsland22
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -460,7 +460,7 @@ GameObject:
   - 33: {fileID: 3371490}
   - 23: {fileID: 2376978}
   - 64: {fileID: 6476900}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: skyIslandDebris25
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -494,7 +494,7 @@ GameObject:
   - 33: {fileID: 3334606}
   - 23: {fileID: 2315018}
   - 64: {fileID: 6495826}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: skyIslandDebris19
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -512,7 +512,7 @@ GameObject:
   - 33: {fileID: 3376120}
   - 23: {fileID: 2351840}
   - 64: {fileID: 6474936}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: skyIslandDebris18
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -530,7 +530,7 @@ GameObject:
   - 33: {fileID: 3313514}
   - 23: {fileID: 2319146}
   - 64: {fileID: 6431552}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: cloud13
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -548,7 +548,7 @@ GameObject:
   - 33: {fileID: 3356008}
   - 23: {fileID: 2368708}
   - 64: {fileID: 6447678}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: cloud36
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -566,7 +566,7 @@ GameObject:
   - 33: {fileID: 3319270}
   - 23: {fileID: 2341344}
   - 64: {fileID: 6472978}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: cloud17
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -600,7 +600,7 @@ GameObject:
   - 33: {fileID: 3312118}
   - 23: {fileID: 2302586}
   - 64: {fileID: 6451360}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: cloud1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -634,7 +634,7 @@ GameObject:
   - 33: {fileID: 3344890}
   - 23: {fileID: 2345330}
   - 64: {fileID: 6498060}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: skyIslandDebris24
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -652,7 +652,7 @@ GameObject:
   - 33: {fileID: 3369508}
   - 23: {fileID: 2349362}
   - 64: {fileID: 6489006}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: cloud11
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -670,7 +670,7 @@ GameObject:
   - 33: {fileID: 3349454}
   - 23: {fileID: 2387582}
   - 64: {fileID: 6441796}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: cloud27
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -688,7 +688,7 @@ GameObject:
   - 33: {fileID: 3320852}
   - 23: {fileID: 2373538}
   - 64: {fileID: 6441488}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: cloud28
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -706,7 +706,7 @@ GameObject:
   - 33: {fileID: 3374382}
   - 23: {fileID: 2338062}
   - 64: {fileID: 6443780}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: cloud10
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -737,7 +737,7 @@ GameObject:
   serializedVersion: 4
   m_Component:
   - 4: {fileID: 422620}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Islands_Group
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -752,7 +752,7 @@ GameObject:
   serializedVersion: 4
   m_Component:
   - 4: {fileID: 402006}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Clouds_Group
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -770,7 +770,7 @@ GameObject:
   - 33: {fileID: 3387902}
   - 23: {fileID: 2312974}
   - 64: {fileID: 6433428}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: skyIsland26
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -788,7 +788,7 @@ GameObject:
   - 33: {fileID: 3391688}
   - 23: {fileID: 2374244}
   - 64: {fileID: 6488562}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: cloud20
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -806,7 +806,7 @@ GameObject:
   - 33: {fileID: 3365158}
   - 23: {fileID: 2337856}
   - 64: {fileID: 6400392}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: skyIslandDebris16
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -824,7 +824,7 @@ GameObject:
   - 33: {fileID: 3312066}
   - 23: {fileID: 2387354}
   - 64: {fileID: 6405776}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: cloud6
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -842,7 +842,7 @@ GameObject:
   - 33: {fileID: 3324208}
   - 23: {fileID: 2385736}
   - 64: {fileID: 6459072}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: skyIsland29
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -876,7 +876,7 @@ GameObject:
   - 33: {fileID: 3374862}
   - 23: {fileID: 2324790}
   - 64: {fileID: 6430344}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: cloud37
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -894,7 +894,7 @@ GameObject:
   - 33: {fileID: 3347238}
   - 23: {fileID: 2388234}
   - 64: {fileID: 6465842}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: cloud35
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -912,7 +912,7 @@ GameObject:
   - 33: {fileID: 3386832}
   - 23: {fileID: 2358216}
   - 64: {fileID: 6496950}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: cloud7
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -930,7 +930,7 @@ GameObject:
   - 33: {fileID: 3397992}
   - 23: {fileID: 2347012}
   - 64: {fileID: 6401238}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: cloud32
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -948,7 +948,7 @@ GameObject:
   - 33: {fileID: 3341472}
   - 23: {fileID: 2330654}
   - 64: {fileID: 6443356}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: cloud9
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -982,7 +982,7 @@ GameObject:
   - 33: {fileID: 3334608}
   - 23: {fileID: 2313446}
   - 64: {fileID: 6417866}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: cloud12
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1000,7 +1000,7 @@ GameObject:
   - 33: {fileID: 3314126}
   - 23: {fileID: 2398334}
   - 64: {fileID: 6445330}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: cloud5
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1018,7 +1018,7 @@ GameObject:
   - 33: {fileID: 3337020}
   - 23: {fileID: 2389584}
   - 64: {fileID: 6413402}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: skyIslandDebris21
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1036,7 +1036,7 @@ GameObject:
   - 33: {fileID: 3361858}
   - 23: {fileID: 2364990}
   - 64: {fileID: 6437618}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: cloud14
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1054,7 +1054,7 @@ GameObject:
   - 33: {fileID: 3371794}
   - 23: {fileID: 2331408}
   - 64: {fileID: 6474602}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: cloud15
   m_TagString: Untagged
   m_Icon: {fileID: 0}

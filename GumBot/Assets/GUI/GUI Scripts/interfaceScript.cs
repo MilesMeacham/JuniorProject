@@ -114,17 +114,17 @@ public class interfaceScript : MonoBehaviour {
 		if (isAchievementsOpen == false) {
 			isAchievementsOpen = true;
 			print ("Achievements Page has been opened");
-			GameObject.Find ("Achievements Page").GetComponent<CanvasGroup> ().alpha = 1;
-			GameObject.Find ("Achievements Page").GetComponent<CanvasGroup> ().interactable = true;
-			GameObject.Find ("Achievements Page").GetComponent<CanvasGroup> ().blocksRaycasts = true;
+			GameObject.Find ("AchievementsPage_Group").GetComponent<CanvasGroup> ().alpha = 1;
+			GameObject.Find ("AchievementsPage_Group").GetComponent<CanvasGroup> ().interactable = true;
+			GameObject.Find ("AchievementsPage_Group").GetComponent<CanvasGroup> ().blocksRaycasts = true;
 		} 
 		else if (isAchievementsOpen == true) 
 		{
 			isAchievementsOpen = false;
 			print ("Achievements Page has been closed");
-			GameObject.Find ("Achievements Page").GetComponent<CanvasGroup> ().alpha = 0;
-			GameObject.Find ("Achievements Page").GetComponent<CanvasGroup> ().interactable = false;
-			GameObject.Find ("Achievements Page").GetComponent<CanvasGroup> ().blocksRaycasts = false;
+			GameObject.Find ("AchievementsPage_Group").GetComponent<CanvasGroup> ().alpha = 0;
+			GameObject.Find ("AchievementsPage_Group").GetComponent<CanvasGroup> ().interactable = false;
+			GameObject.Find ("AchievementsPage_Group").GetComponent<CanvasGroup> ().blocksRaycasts = false;
 		}
 	}
 
@@ -134,17 +134,17 @@ public class interfaceScript : MonoBehaviour {
 		{
 			isOptionsOpen = true;
 			print ("Options Page has been opened");
-			GameObject.Find ("Options Page").GetComponent<CanvasGroup> ().alpha = 1;
-			GameObject.Find ("Options Page").GetComponent<CanvasGroup> ().interactable = true;
-			GameObject.Find ("Options Page").GetComponent<CanvasGroup> ().blocksRaycasts = true;
+			GameObject.Find ("OptionsPage_Group").GetComponent<CanvasGroup> ().alpha = 1;
+			GameObject.Find ("OptionsPage_Group").GetComponent<CanvasGroup> ().interactable = true;
+			GameObject.Find ("OptionsPage_Group").GetComponent<CanvasGroup> ().blocksRaycasts = true;
 		}
 		else if (isOptionsOpen == true)
 		{
 			isOptionsOpen = false;
 			print ("Options Page has been closed");
-			GameObject.Find ("Options Page").GetComponent<CanvasGroup> ().alpha = 0;
-			GameObject.Find ("Options Page").GetComponent<CanvasGroup> ().interactable = false;
-			GameObject.Find ("Options Page").GetComponent<CanvasGroup> ().blocksRaycasts = false;
+			GameObject.Find ("OptionsPage_Group").GetComponent<CanvasGroup> ().alpha = 0;
+			GameObject.Find ("OptionsPage_Group").GetComponent<CanvasGroup> ().interactable = false;
+			GameObject.Find ("OptionsPage_Group").GetComponent<CanvasGroup> ().blocksRaycasts = false;
 		}
 	}
 
@@ -154,17 +154,17 @@ public class interfaceScript : MonoBehaviour {
 		{
 			isAboutOpen = true;
 			print ("About Page has been opened");
-			GameObject.Find ("About Page").GetComponent<CanvasGroup> ().alpha = 1;
-			GameObject.Find ("About Page").GetComponent<CanvasGroup> ().interactable = true;
-			GameObject.Find ("About Page").GetComponent<CanvasGroup> ().blocksRaycasts = true;
+			GameObject.Find ("AboutPage_Group").GetComponent<CanvasGroup> ().alpha = 1;
+			GameObject.Find ("AboutPage_Group").GetComponent<CanvasGroup> ().interactable = true;
+			GameObject.Find ("AboutPage_Group").GetComponent<CanvasGroup> ().blocksRaycasts = true;
 		} 
 		else if (isAboutOpen == true) 
 		{
 			isAboutOpen = false;
 			print ("About Page has been closed");
-			GameObject.Find ("About Page").GetComponent<CanvasGroup> ().alpha = 0;
-			GameObject.Find ("About Page").GetComponent<CanvasGroup> ().interactable = false;
-			GameObject.Find ("About Page").GetComponent<CanvasGroup> ().blocksRaycasts = false;
+			GameObject.Find ("AboutPage_Group").GetComponent<CanvasGroup> ().alpha = 0;
+			GameObject.Find ("AboutPage_Group").GetComponent<CanvasGroup> ().interactable = false;
+			GameObject.Find ("AboutPage_Group").GetComponent<CanvasGroup> ().blocksRaycasts = false;
 		}
 	}
 
@@ -176,18 +176,18 @@ public class interfaceScript : MonoBehaviour {
 		{
 			isPaused = true;
 			print ("The user has paused the game.");
-			GameObject.Find ("Pause Menu").GetComponent<CanvasGroup> ().alpha = 1;
-			GameObject.Find ("Pause Menu").GetComponent<CanvasGroup> ().interactable = true;
-			GameObject.Find ("Pause Menu").GetComponent<CanvasGroup> ().blocksRaycasts = true;
+			GameObject.Find ("PauseMenu_Group").GetComponent<CanvasGroup> ().alpha = 1;
+			GameObject.Find ("PauseMenu_Group").GetComponent<CanvasGroup> ().interactable = true;
+			GameObject.Find ("PauseMenu_Group").GetComponent<CanvasGroup> ().blocksRaycasts = true;
 			Time.timeScale =0;
 		}
 		else if(isPaused == true)
 		{
 			isPaused = false;
 			print ("The user has unpaused the game.");
-			GameObject.Find ("Pause Menu").GetComponent<CanvasGroup> ().alpha = 0;
-			GameObject.Find ("Pause Menu").GetComponent<CanvasGroup> ().interactable = false;
-			GameObject.Find ("Pause Menu").GetComponent<CanvasGroup> ().blocksRaycasts = false;
+			GameObject.Find ("PauseMenu_Group").GetComponent<CanvasGroup> ().alpha = 0;
+			GameObject.Find ("PauseMenu_Group").GetComponent<CanvasGroup> ().interactable = false;
+			GameObject.Find ("PauseMenu_Group").GetComponent<CanvasGroup> ().blocksRaycasts = false;
 			Time.timeScale =1;
 		}
 	}
@@ -203,17 +203,17 @@ public class interfaceScript : MonoBehaviour {
 		{
 			isSaveGameWindowOpen = true;
 			print ("Save Game Window has been opened.");
-			GameObject.Find ("Save Game Window").GetComponent<CanvasGroup> ().alpha = 1;
-			GameObject.Find ("Save Game Window").GetComponent<CanvasGroup> ().interactable = true;
-			GameObject.Find ("Save Game Window").GetComponent<CanvasGroup> ().blocksRaycasts = true;
+			GameObject.Find ("SaveGameWindow_Group").GetComponent<CanvasGroup> ().alpha = 1;
+			GameObject.Find ("SaveGameWindow_Group").GetComponent<CanvasGroup> ().interactable = true;
+			GameObject.Find ("SaveGameWindow_Group").GetComponent<CanvasGroup> ().blocksRaycasts = true;
 		}
 		else if (isSaveGameWindowOpen == true)
 		{
 			isSaveGameWindowOpen = false;
 			print ("Save Game Window has been closed.");
-			GameObject.Find ("Save Game Window").GetComponent<CanvasGroup> ().alpha = 0;
-			GameObject.Find ("Save Game Window").GetComponent<CanvasGroup> ().interactable = false;
-			GameObject.Find ("Save Game Window").GetComponent<CanvasGroup> ().blocksRaycasts = false;
+			GameObject.Find ("SaveGameWindow_Group").GetComponent<CanvasGroup> ().alpha = 0;
+			GameObject.Find ("SaveGameWindow_Group").GetComponent<CanvasGroup> ().interactable = false;
+			GameObject.Find ("SaveGameWindow_Group").GetComponent<CanvasGroup> ().blocksRaycasts = false;
 		}
 	}
 
@@ -228,17 +228,17 @@ public class interfaceScript : MonoBehaviour {
 		{
 			isQuitWindowOpen = true;
 			print ("Quit Game Window has been opened");
-			GameObject.Find ("Quit Window").GetComponent<CanvasGroup> ().alpha = 1;
-			GameObject.Find ("Quit Window").GetComponent<CanvasGroup> ().interactable = true;
-			GameObject.Find ("Quit Window").GetComponent<CanvasGroup> ().blocksRaycasts = true;
+			GameObject.Find ("QuitWindow_Group").GetComponent<CanvasGroup> ().alpha = 1;
+			GameObject.Find ("QuitWindow_Group").GetComponent<CanvasGroup> ().interactable = true;
+			GameObject.Find ("QuitWindow_Group").GetComponent<CanvasGroup> ().blocksRaycasts = true;
 		}
 		else if (isQuitWindowOpen == true) 
 		{
 			isQuitWindowOpen = false;
 			print ("Quit Game Window has been closed");
-			GameObject.Find ("Quit Window").GetComponent<CanvasGroup> ().alpha = 0;
-			GameObject.Find ("Quit Window").GetComponent<CanvasGroup> ().interactable = false;
-			GameObject.Find ("Quit Window").GetComponent<CanvasGroup> ().blocksRaycasts = false;
+			GameObject.Find ("QuitWindow_Group").GetComponent<CanvasGroup> ().alpha = 0;
+			GameObject.Find ("QuitWindow_Group").GetComponent<CanvasGroup> ().interactable = false;
+			GameObject.Find ("QuitWindow_Group").GetComponent<CanvasGroup> ().blocksRaycasts = false;
 		}
 	}
 
@@ -249,17 +249,17 @@ public class interfaceScript : MonoBehaviour {
 		{
 			isInventoryWindowOpen = true;
 			print ("Inventory Window has been opened");
-			GameObject.Find ("Inventory Window").GetComponent<CanvasGroup> ().alpha = 1;
-			GameObject.Find ("Inventory Window").GetComponent<CanvasGroup> ().interactable = true;
-			GameObject.Find ("Inventory Window").GetComponent<CanvasGroup> ().blocksRaycasts = true;
+			GameObject.Find ("InventoryWindow_Group").GetComponent<CanvasGroup> ().alpha = 1;
+			GameObject.Find ("InventoryWindow_Group").GetComponent<CanvasGroup> ().interactable = true;
+			GameObject.Find ("InventoryWindow_Group").GetComponent<CanvasGroup> ().blocksRaycasts = true;
 		}
 		else if (isInventoryWindowOpen == true) 
 		{
 			isInventoryWindowOpen = false;
 			print ("Inventory Window has been closed");
-			GameObject.Find ("Inventory Window").GetComponent<CanvasGroup> ().alpha = 0;
-			GameObject.Find ("Inventory Window").GetComponent<CanvasGroup> ().interactable = false;
-			GameObject.Find ("Inventory Window").GetComponent<CanvasGroup> ().blocksRaycasts = false;
+			GameObject.Find ("InventoryWindow_Group").GetComponent<CanvasGroup> ().alpha = 0;
+			GameObject.Find ("InventoryWindow_Group").GetComponent<CanvasGroup> ().interactable = false;
+			GameObject.Find ("InventoryWindow_Group").GetComponent<CanvasGroup> ().blocksRaycasts = false;
 		}
 	}
 
@@ -269,17 +269,17 @@ public class interfaceScript : MonoBehaviour {
 		{
 			isItemsWindowOpen = true;
 			print ("Items Window has been opened");
-			GameObject.Find ("Items Window").GetComponent<CanvasGroup> ().alpha = 1;
-			GameObject.Find ("Items Window").GetComponent<CanvasGroup> ().interactable = true;
-			GameObject.Find ("Items Window").GetComponent<CanvasGroup> ().blocksRaycasts = true;
+			GameObject.Find ("ItemsWindow_Group").GetComponent<CanvasGroup> ().alpha = 1;
+			GameObject.Find ("ItemsWindow_Group").GetComponent<CanvasGroup> ().interactable = true;
+			GameObject.Find ("ItemsWindow_Group").GetComponent<CanvasGroup> ().blocksRaycasts = true;
 		}
 		else if (isItemsWindowOpen == true) 
 		{
 			isItemsWindowOpen = false;
 			print ("Items Window has been closed");
-			GameObject.Find ("Items Window").GetComponent<CanvasGroup> ().alpha = 0;
-			GameObject.Find ("Items Window").GetComponent<CanvasGroup> ().interactable = false;
-			GameObject.Find ("Items Window").GetComponent<CanvasGroup> ().blocksRaycasts = false;
+			GameObject.Find ("ItemsWindow_Group").GetComponent<CanvasGroup> ().alpha = 0;
+			GameObject.Find ("ItemsWindow_Group").GetComponent<CanvasGroup> ().interactable = false;
+			GameObject.Find ("ItemsWindow_Group").GetComponent<CanvasGroup> ().blocksRaycasts = false;
 		}
 	}
 
@@ -289,17 +289,17 @@ public class interfaceScript : MonoBehaviour {
 		{
 			isWeaponsWindowOpen = true;
 			print ("Weapons Window has been opened");
-			GameObject.Find ("Weapons Window").GetComponent<CanvasGroup> ().alpha = 1;
-			GameObject.Find ("Weapons Window").GetComponent<CanvasGroup> ().interactable = true;
-			GameObject.Find ("Weapons Window").GetComponent<CanvasGroup> ().blocksRaycasts = true;
+			GameObject.Find ("WeaponsWindow_Group").GetComponent<CanvasGroup> ().alpha = 1;
+			GameObject.Find ("WeaponsWindow_Group").GetComponent<CanvasGroup> ().interactable = true;
+			GameObject.Find ("WeaponsWindow_Group").GetComponent<CanvasGroup> ().blocksRaycasts = true;
 		}
 		else if (isWeaponsWindowOpen == true) 
 		{
 			isWeaponsWindowOpen = false;
 			print ("Items Window has been closed");
-			GameObject.Find ("Weapons Window").GetComponent<CanvasGroup> ().alpha = 0;
-			GameObject.Find ("Weapons Window").GetComponent<CanvasGroup> ().interactable = false;
-			GameObject.Find ("Weapons Window").GetComponent<CanvasGroup> ().blocksRaycasts = false;
+			GameObject.Find ("WeaponsWindow_Group").GetComponent<CanvasGroup> ().alpha = 0;
+			GameObject.Find ("WeaponsWindow_Group").GetComponent<CanvasGroup> ().interactable = false;
+			GameObject.Find ("WeaponsWindow_Group").GetComponent<CanvasGroup> ().blocksRaycasts = false;
 		}
 	}
 
@@ -309,17 +309,17 @@ public class interfaceScript : MonoBehaviour {
 		{
 			isArmorWindowOpen = true;
 			print ("Armor Window has been opened");
-			GameObject.Find ("Armor Window").GetComponent<CanvasGroup> ().alpha = 1;
-			GameObject.Find ("Armor Window").GetComponent<CanvasGroup> ().interactable = true;
-			GameObject.Find ("Armor Window").GetComponent<CanvasGroup> ().blocksRaycasts = true;
+			GameObject.Find ("ArmorWindow_Group").GetComponent<CanvasGroup> ().alpha = 1;
+			GameObject.Find ("ArmorWindow_Group").GetComponent<CanvasGroup> ().interactable = true;
+			GameObject.Find ("ArmorWindow_Group").GetComponent<CanvasGroup> ().blocksRaycasts = true;
 		}
 		else if (isArmorWindowOpen == true) 
 		{
 			isArmorWindowOpen = false;
 			print ("Armor Window has been closed");
-			GameObject.Find ("Armor Window").GetComponent<CanvasGroup> ().alpha = 0;
-			GameObject.Find ("Armor Window").GetComponent<CanvasGroup> ().interactable = false;
-			GameObject.Find ("Armor Window").GetComponent<CanvasGroup> ().blocksRaycasts = false;
+			GameObject.Find ("ArmorWindow_Group").GetComponent<CanvasGroup> ().alpha = 0;
+			GameObject.Find ("ArmorWindow_Group").GetComponent<CanvasGroup> ().interactable = false;
+			GameObject.Find ("ArmorWindow_Group").GetComponent<CanvasGroup> ().blocksRaycasts = false;
 		}
 	}
 }
